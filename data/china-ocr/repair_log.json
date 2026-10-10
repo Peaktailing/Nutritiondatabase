@@ -1,0 +1,462 @@
+[
+ {
+  "code": "034106",
+  "name": "芸豆(干，杂，带皮)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "water_g": 9.8
+  },
+  "desc": 348.2,
+  "five_sum_before": 176.20000000000002
+ },
+ {
+  "code": "041106",
+  "name": "花叶萝卜",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 1.15
+  },
+  "desc": 48.9,
+  "five_sum_before": 110.8
+ },
+ {
+  "code": "042103",
+  "name": "刀豆 （鲜）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 7.0
+  },
+  "desc": 35.9,
+  "five_sum_before": 162.99999999999997
+ },
+ {
+  "code": "042105",
+  "name": "豆角 (鲜，白）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 7.4
+  },
+  "desc": 29.800000000000004,
+  "five_sum_before": 166.60000000000002
+ },
+ {
+  "code": "042115",
+  "name": "芸豆 (鲜)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 7.4
+  },
+  "desc": 25.300000000000004,
+  "five_sum_before": 166.6
+ },
+ {
+  "code": "043102",
+  "name": "茄子 (绿皮)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.0
+  },
+  "desc": 25.4,
+  "five_sum_before": 109.0
+ },
+ {
+  "code": "043109",
+  "name": "辣椒 (红，小)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.3
+  },
+  "desc": 31.6,
+  "five_sum_before": 111.7
+ },
+ {
+  "code": "043222",
+  "name": "飞碟瓜",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.0
+  },
+  "desc": 22.5,
+  "five_sum_before": 109.0
+ },
+ {
+  "code": "043224",
+  "name": "黄茎瓜［小南瓜］",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.2
+  },
+  "desc": 20.9,
+  "five_sum_before": 110.80000000000001
+ },
+ {
+  "code": "043227",
+  "name": "南瓜 (栗面)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.4
+  },
+  "desc": 41.7,
+  "five_sum_before": 112.6
+ },
+ {
+  "code": "044207",
+  "name": "细香葱【香葱、四季葱］",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.4
+  },
+  "desc": 34.699999999999996,
+  "five_sum_before": 112.59999999999998
+ },
+ {
+  "code": "045120",
+  "name": "小白菜【青菜］",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.4
+  },
+  "desc": 17.9,
+  "five_sum_before": 112.6
+ },
+ {
+  "code": "045124",
+  "name": "乌塌菜［塌菜、塌棵菜］",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.8
+  },
+  "desc": 11.3,
+  "five_sum_before": 116.19999999999999
+ },
+ {
+  "code": "045206",
+  "name": "芥菜（大叶，鲜）【盖菜］",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 2.0
+  },
+  "desc": 14.0,
+  "five_sum_before": 118.0
+ },
+ {
+  "code": "045312",
+  "name": "芹菜茎",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.2
+  },
+  "desc": 19.799999999999997,
+  "five_sum_before": 110.8
+ },
+ {
+  "code": "046010",
+  "name": "藕［莲藕】",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 1.15
+  },
+  "desc": 49.8,
+  "five_sum_before": 110.80000000000001
+ },
+ {
+  "code": "051016",
+  "name": "普中红蘑 (千)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "water_g": 21.75
+  },
+  "desc": 213.89999999999998,
+  "five_sum_before": 90.55
+ },
+ {
+  "code": "051018",
+  "name": "松磨蘑（于）【松口蘑，松茸】",
+  "flag": "ocr_macro_sum_low",
+  "fix": {
+   "water_g": 27.08
+  },
+  "desc": 302.8,
+  "five_sum_before": 89.02000000000001
+ },
+ {
+  "code": "051022",
+  "name": "香杏片口磨蘑（干）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "water_g": 26.26
+  },
+  "desc": 207.1,
+  "five_sum_before": 88.83999999999999
+ },
+ {
+  "code": "051025",
+  "name": "珍珠白蘑 (干)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "water_g": 23.44
+  },
+  "desc": 211.5,
+  "five_sum_before": 88.66
+ },
+ {
+  "code": "062304",
+  "name": "枣 (金丝小枣)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.2
+  },
+  "desc": 321.5,
+  "five_sum_before": 110.8
+ },
+ {
+  "code": "071001",
+  "name": "白果（干）【银杏】",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 1.32
+  },
+  "desc": 412.67999999999995,
+  "five_sum_before": 111.69999999999999
+ },
+ {
+  "code": "071034",
+  "name": "杏仁（熟，带壳）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "water_g": 1.7
+  },
+  "desc": 670.0,
+  "five_sum_before": 115.3
+ },
+ {
+  "code": "072005",
+  "name": "花生仁 (炒)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "water_g": 1.8
+  },
+  "desc": 580.8,
+  "five_sum_before": 116.2
+ },
+ {
+  "code": "081306",
+  "name": "卤猪杂",
+  "flag": "ocr_macro_sum_low",
+  "fix": {
+   "water_g": 68.5
+  },
+  "desc": 141.6,
+  "five_sum_before": 88.99999999999999
+ },
+ {
+  "code": "081429",
+  "name": "午餐肉 （上海梅林牌）",
+  "flag": "ocr_macro_sum_low",
+  "fix": {
+   "water_g": 55.2
+  },
+  "desc": 320.1,
+  "five_sum_before": 80.00000000000001
+ },
+ {
+  "code": "082107",
+  "name": "牛肉 (前腱)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.3
+  },
+  "desc": 113.30000000000001,
+  "five_sum_before": 111.69999999999999
+ },
+ {
+  "code": "082120",
+  "name": "耗牛肉",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.4
+  },
+  "desc": 118.6,
+  "five_sum_before": 112.60000000000001
+ },
+ {
+  "code": "082204",
+  "name": "牛肺",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 1.5
+  },
+  "desc": 94.5,
+  "five_sum_before": 113.5
+ },
+ {
+  "code": "083105",
+  "name": "羊肉 (里脊）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.6
+  },
+  "desc": 102.80000000000001,
+  "five_sum_before": 114.4
+ },
+ {
+  "code": "083204",
+  "name": "羊肝",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 7.4
+  },
+  "desc": 133.6,
+  "five_sum_before": 166.6
+ },
+ {
+  "code": "091115",
+  "name": "鸡块 (（带浆粉）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "water_g": 51.3
+  },
+  "desc": 268.0,
+  "five_sum_before": 106.9
+ },
+ {
+  "code": "092212",
+  "name": "鸭盹 (公麻鸭)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.2
+  },
+  "desc": 111.6,
+  "five_sum_before": 110.8
+ },
+ {
+  "code": "101155",
+  "name": "纯牛奶（低脂，蒙牛特仑",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 5.2
+  },
+  "desc": 47.7,
+  "five_sum_before": 146.8
+ },
+ {
+  "code": "101191",
+  "name": "鲜牛奶（全脂：现代牧场",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "protein_g": 3.4
+  },
+  "desc": 64.0,
+  "five_sum_before": 130.59999999999997
+ },
+ {
+  "code": "101402",
+  "name": "鲜驴奶 （冻）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 7.0
+  },
+  "desc": 40.8,
+  "five_sum_before": 163.00000000000003
+ },
+ {
+  "code": "101502",
+  "name": "鲜驼奶（冻）",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 9.9
+  },
+  "desc": 85.5,
+  "five_sum_before": 189.10000000000002
+ },
+ {
+  "code": "102211",
+  "name": "驴奶粉（花麒牌、西域龙",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.24
+  },
+  "desc": 341.15999999999997,
+  "five_sum_before": 109.0
+ },
+ {
+  "code": "103013",
+  "name": "酸奶（低脂，艾美牌，草莓、",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 1.69
+  },
+  "desc": 92.36,
+  "five_sum_before": 114.4
+ },
+ {
+  "code": "113104",
+  "name": "鹅蛋 (煮)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 1.0
+  },
+  "desc": 177.2,
+  "five_sum_before": 109.0
+ },
+ {
+  "code": "121255",
+  "name": "石斑鱼 (红石斑鱼)",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 1.6
+  },
+  "desc": 89.6,
+  "five_sum_before": 114.4
+ },
+ {
+  "code": "122104",
+  "name": "「刺、大头虾】",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.4
+  },
+  "desc": 76.6,
+  "five_sum_before": 112.60000000000001
+ },
+ {
+  "code": "122109",
+  "name": "基围虾",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.4
+  },
+  "desc": 100.99999999999999,
+  "five_sum_before": 112.60000000000001
+ },
+ {
+  "code": "122114",
+  "name": "虾虎",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.7
+  },
+  "desc": 80.89999999999999,
+  "five_sum_before": 115.29999999999998
+ },
+ {
+  "code": "122117",
+  "name": "北极虾",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "fat_g": 1.2
+  },
+  "desc": 132.0,
+  "five_sum_before": 110.8
+ },
+ {
+  "code": "129012",
+  "name": "章角（章鱼肉）「八爪鱼！",
+  "flag": "ocr_carb_column_shift",
+  "fix": {
+   "carb_g": 1.4
+  },
+  "desc": 51.6,
+  "five_sum_before": 112.60000000000001
+ }
+]

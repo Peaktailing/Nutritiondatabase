@@ -177,7 +177,28 @@ python3 scripts/query/query.py tables                    # 列出所有表
 | `ocr_macro_sum_low` | 3 | macro_sum < 94 | — |
 | `name_missing` | 16 | 原书名称列 OCR 丢失 | 主表/CSV/sample_desc/USDA 兼容版四处均为空 |
 
-一律用 `merge_flag` 旁注，**不改** OCR 脚本给出的 `check_grade`（那是原始判定，应尊重）。碳水值可疑的 107 条，跨库比对时建议排除或标注。
+一律用 `merge_flag` 旁注，**不改** OCR 脚本给出的 `check_grade`（那是原始判定，应尊重）。
+
+### OCR 读数错误的自动修复（已完成）
+
+`scripts/normalize/fix_ocr_shifts.py` 用守恒约束对上表标记的可疑行做假设检验修复，共修 **117 条**，决策日志在 `data/china-ocr/repair_log.json`（每条含 code/name/flag/修复前后值/五项和）：
+
+| 修复类型 | 条数 | 方法 |
+|------|-----:|------|
+| 碳水列 ×10 / 蛋白列多读 0 / 脂肪列多读 0 | 46 | 五项守恒（水+蛋白+脂肪+碳水+灰分=100±2.5）+ 能量校验，strict→loose 两轮筛选，唯一候选才采信 |
+| kJ 小数点丢失（重算 kJ=kcal×4.184） | 13 | kcal 可信时直接换算 |
+| kcal / kJ 两列互换 | 58 | ratio=kj/kcal∈[0.10,0.35] 且回代比值∈[3.6,5.2] |
+
+另有 61 条 macro_sum 越界为**假警报**（数据自洽，宏量口径定义差异），不改动；4 条多解不唯一**转人工**（玉米笋罐头、茄子白皮长、油菜心、红螺）。
+
+**能量公式实测口径**：中国表碳水列**含膳食纤维**（总碳水），能量只计可利用碳水，`kcal_calc = 4×蛋白 + 9×脂肪 + 4×(碳水 − 纤维)`。纤维系数不可重复相加——否则茄子等合法修复假设会被误杀。
+
+### 跨库交叉比对
+
+`scripts/query/cross_db_report.py` 生成 [`docs/CROSS_DB_REPORT.md`](docs/CROSS_DB_REPORT.md) + `data/cross_db_match.csv`：
+
+- **A 部分**：8 数据源 × 15 分类 × 10 营养素中位数对照（同分类横向核查异常源）
+- **B 部分**：UK↔USDA 词集重叠匹配 230 对（阈值 3.5，分类一致 +1.0 分）。CN↔USDA 直接匹配误配率过半（中国表英文名仅 21 条补缺行有、描述句式与 USDA 差异大），故 B 部分不含 CN
 
 ### 符号语义与口径
 

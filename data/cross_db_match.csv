@@ -1,0 +1,231 @@
+uk_code,uk_name,cat,usda_name,cn_kcal,usda_kcal,kcal_diff_pct,cn_protein,usda_protein,protein_diff_pct,cn_fat,usda_fat,fat_diff_pct
+11-1000,Stuffing, sage and onion, homemade,grain,George Weston Bakeries, Brownberry Sage and Onion Stuffing Mix, dry,253.0,390.0,54,5.6,13.3,138,13.3,5.1,-62
+11-1001,Bread, white, toasted,grain,Bread, white, commercially prepared, toasted, low sodium no salt,267.0,293.0,10,9.7,9.0,-7,2.0,4.0,100
+11-1004,Bread, white, 'with added fibre', toasted,grain,Bread, white, commercially prepared, toasted,266.0,290.0,9,10.4,9.0,-13,2.6,4.0,54
+11-1006,Bread rolls, white, soft,grain,Udi's, Gluten Free, Soft & Delicious White Sandwich Bread,254.0,298.0,17,9.3,5.4,-42,2.6,8.02,208
+11-1046,Cake, chocolate, not filled, homemade,grain,Cake, snack cakes, not chocolate, with icing or filling, low-fat, with added fiber,438.0,412.0,-6,7.3,3.71,-49,24.1,11.14,-54
+11-1047,Cake, chocolate, with butter icing, homemade,grain,Cookie, butter or sugar, with chocolate icing or filling,452.0,503.0,11,5.8,4.1,-29,25.2,23.5,-7
+11-1094,Muffins, American style, chocolate chip, homemade,grain,Archway Home Style Cookies, Chocolate Chip Ice Box,384.0,497.0,29,6.3,4.28,-32,17.5,24.4,39
+11-1117,Bread, soda, made with white flour, homemade,grain,Flour, bread, white, enriched, unbleached,261.0,363.0,39,7.6,14.3,88,1.6,1.65,3
+11-527,Cake, chocolate fudge,grain,Cake, cherry fudge with chocolate frosting,358.0,264.0,-26,5.2,2.4,-54,14.3,12.5,-13
+11-541,Muffins, English style, white,grain,English muffins, whole grain white,223.0,245.0,10,10.0,7.02,-30,1.9,1.75,-8
+11-542,Muffins, English style, white, toasted,grain,Muffins, English, raisin-cinnamon, toasted (includes apple-cinnamon),261.0,276.0,6,11.3,8.87,-22,2.7,2.21,-18
+11-548,Pie, lemon meringue, retail,grain,Pie, lemon meringue, commercially prepared,251.0,268.0,7,2.9,1.5,-48,8.5,8.7,2
+11-731,Pasta, egg, fresh, filled with green vegetables/herbs and cheese, boiled in unsalted water,grain,Egg omelet or scrambled egg, with cheese and dark-green vegetables, fat added,195.0,187.0,-4,8.7,11.6,33,5.8,14.89,157
+11-736,Pasta, ravioli, meat filling, canned in tomato sauce,grain,Ravioli, NS as to filling, with tomato sauce,77.0,138.0,79,2.3,6.92,201,1.4,5.9,321
+11-753,Breakfast cereal, rice, chocolate flavoured, fortified,grain,Cookies, chocolate, made with rice cereal,375.0,440.0,17,4.6,3.23,-30,2.3,19.35,741
+11-757,Breakfast cereal, puffed wheat, honey coated, fortified,grain,Cereals ready-to-eat, wheat, puffed, fortified,355.0,364.0,3,4.7,14.7,213,1.2,1.2,0
+11-775,Breakfast cereal, shredded wheat type, unfortified,grain,Cereals ready-to-eat, QUAKER, Shredded Wheat, bagged cereal,333.0,348.0,5,10.9,11.24,3,2.5,2.01,-20
+11-778,Breakfast cereal, Shredded Wheat, honey nut, Nestle,grain,Cereals ready-to-eat, POST, Honey Nut Shredded Wheat,361.0,373.0,3,9.8,8.5,-13,5.4,2.9,-46
+11-781,Muesli, Swiss style, no added sugar or salt, unfortified,grain,Corn, sweet, yellow, canned, cream style, no salt added,357.0,72.0,-80,9.8,1.74,-82,5.9,0.42,-93
+11-811,Biscuits, fully coated with chocolate, with marshmallow,grain,Cookies, marshmallow, chocolate-coated (includes marshmallow pies),413.0,421.0,2,4.5,4.0,-11,19.0,16.9,-11
+11-812,Chocolate covered wafer biscuit,grain,Cookies, chocolate cream covered biscuit sticks,509.0,447.0,-12,5.5,10.0,82,28.6,22.5,-21
+11-815,Biscuits, cookies, chocolate chip, standard,grain,Cookies, chocolate chip, commercially prepared, regular, lower fat,471.0,451.0,-4,5.4,5.97,11,24.9,17.91,-28
+11-816,Biscuits, cookies, chocolate chip, American style,grain,Cookies, chocolate chip, commercially prepared, regular, higher fat, enriched,440.0,492.0,12,5.2,5.1,-2,21.3,24.72,16
+11-834,Cake, Swiss rolls, chocolate covered and filled, retail,grain,Cake, snack cakes, creme-filled, chocolate with frosting, low-fat, with added fiber,414.0,409.0,-1,4.5,3.71,-18,22.7,13.0,-43
+11-861,Rice, white, long grain, raw,grain,Rice, white, long grain, unenriched, raw,355.0,358.705,1,6.7,7.03885,5,1.0,1.033,3
+11-862,Rice, white, long grain, boiled in unsalted water,grain,Rice, white, long-grain, regular, raw, enriched,131.0,365.0,179,2.8,7.13,155,0.4,0.66,65
+11-863,Rice, white, long grain, easy cook, raw,grain,Rice, white, long-grain, regular, enriched, cooked,347.0,130.0,-63,7.0,2.69,-62,1.1,0.28,-75
+11-864,Rice, white, long grain, easy cook, boiled in unsalted water,grain,Rice, white, long-grain, regular, cooked, unenriched, with salt,146.0,130.0,-11,3.0,2.69,-10,0.4,0.28,-30
+11-880,Rice, savoury, including chicken, beef, mushroom and vegetable varieties, dried, uncooked,grain,Beef, rice, and vegetables including carrots, broccoli, and/or dark-green leafy; mushroom sauce,369.0,130.0,-65,8.0,5.78,-28,2.7,5.23,94
+11-881,Rice, savoury, including chicken, beef, mushroom and vegetable varieties, dried, cooked,grain,Chicken or turkey, rice, and vegetables including carrots, broccoli, and/or dark-green leafy; cream sauce, white sauce, or mushroom sauce,155.0,131.0,-15,3.7,5.26,42,1.4,5.68,306
+11-886,Flour, wheat, white, plain, soft,grain,Wheat flour, white, all-purpose, enriched, bleached,352.0,364.0,3,9.1,10.33,14,1.4,0.98,-30
+11-887,Flour, wheat, bread/strong, white,grain,Wheat flour, white, bread, enriched,353.0,361.0,2,11.3,11.98,6,1.2,1.66,38
+11-888,Flour, wheat, white, self raising,grain,Wheat flour, white, all-purpose, self-rising, enriched,348.0,354.0,2,8.9,9.89,11,1.5,0.97,-35
+11-891,Flour, wheat, wholemeal, self raising,grain,Cornmeal, yellow, self-rising, bolted, with wheat flour added, enriched,359.0,348.0,-3,10.8,8.41,-22,1.9,2.85,50
+11-893,Flour, wheat, brown, bread/strong,grain,Bread, gluten-free, white, made with tapioca starch and brown rice flour,341.0,298.0,-13,13.4,5.4,-60,1.9,8.02,322
+11-920,Pie, apple, pastry, double crust, deep filled, retail,grain,Pie crust, deep dish, frozen, unbaked, made with enriched flour,256.0,468.0,83,3.3,5.52,67,10.9,28.74,164
+11-955,Sandwich, white bread, bacon, lettuce and tomato,grain,Fast foods, submarine sandwich, bacon, lettuce, and tomato on white bread,230.0,205.0,-11,8.2,10.06,23,11.9,6.41,-46
+11-963,Sandwich, white bread, cheddar cheese and pickle,grain,Cheese sandwich, cheddar cheese, on white bread,282.0,325.0,15,12.0,15.14,26,14.4,16.11,12
+11-964,Sandwich, white bread, chicken salad,grain,Fast foods, submarine sandwich, sweet onion chicken teriyaki on white bread with lettuce, tomato and sweet onion sauce,172.0,155.0,-10,10.7,10.91,2,4.9,2.37,-52
+11-965,Sandwich, white bread, ham salad,grain,Fast foods, submarine sandwich, turkey, roast beef and ham on white bread with lettuce and tomato,163.0,146.0,-10,8.2,10.66,30,4.1,2.42,-41
+11-966,Sandwich, white bread, egg mayonnaise,grain,Egg sandwich on white bread,243.0,228.0,-6,8.8,10.46,19,11.2,9.05,-19
+11-967,Sandwich, white bread, tuna mayonnaise,grain,Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato,237.0,218.0,-8,12.5,12.33,-1,10.2,12.04,18
+12-375,Yogurt, whole milk, fruit,oil_fat,Yogurt, Greek, fruit, whole milk,109.0,106.0,-3,4.0,7.33,83,3.0,3.0,0
+12-505,Fat spread, reduced fat (41-62%), not polyunsaturated, with olive oil,oil_fat,Vegetable oil-butter spread, reduced calorie,537.0,465.0,-13,0.2,0.0,-100,59.1,53.0,-10
+12-507,Cornetto type ice cream cone,oil_fat,Cookie, cone shell, ice cream type, wafer or cake,292.0,417.0,43,3.5,8.1,131,14.4,6.9,-52
+12-508,Ice cream, dairy, vanilla, soft scoop,oil_fat,Fast foods, vanilla, light, soft-serve ice cream, with cone,169.0,163.0,-4,3.2,4.24,32,8.2,4.86,-41
+12-509,Ice cream, non dairy, vanilla, soft scoop,oil_fat,Ice cream, soft serve, vanilla,192.0,180.0,-6,2.6,4.78,84,7.7,4.83,-37
+12-510,Ice cream bars/choc ices, chocolate coated, luxury,oil_fat,Frozen novelties, ice cream type, vanilla ice cream, light, no sugar added, chocolate coated,336.0,221.0,-34,3.9,6.4,64,21.1,10.1,-52
+12-511,Ice cream, dairy, luxury, with chocolate/caramel,oil_fat,Frozen novelties, ice cream type, chocolate or caramel covered, with nuts,262.0,323.0,23,4.2,4.4,5,13.9,20.2,45
+12-515,Yogurt, whole milk, twin pot, not fruit,oil_fat,Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added DHA fortified,148.0,98.0,-34,4.2,3.4,-19,5.6,3.53,-37
+12-530,Yogurt, whole milk, infant, fruit flavour,oil_fat,Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added iron fortified,90.0,92.0,2,3.8,3.05,-20,3.7,3.08,-17
+12-531,Yogurt, whole milk, twin pot, thick and creamy with fruit,oil_fat,Yogurt, whole milk, fruit,106.0,106.0,0,4.1,3.34,-19,3.2,3.86,21
+12-581,Ice cream with cone, non-dairy, vanilla,oil_fat,McDONALD'S, Vanilla Reduced Fat Ice Cream Cone,200.0,162.0,-19,2.9,4.24,46,7.5,4.86,-35
+12-593,Sauce, cheese, packet mix, dry,oil_fat,Sauce, cheese sauce mix, dry,486.0,438.0,-10,19.3,7.68,-60,28.4,18.33,-35
+12-963,Eggs, chicken, whole, scrambled, without milk,dairy_egg,Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D,152.0,61.0,-60,14.6,3.15,-78,10.4,3.27,-69
+13-289,Mushrooms, Jew's ear, tender, dried, raw,vegetable,Jew's ear, (pepeao), raw,279.0,25.0,-91,6.9,0.48,-93,1.0,0.04,-96
+13-463,Sweet potato, raw, flesh only,vegetable,Sweet potato, cooked, baked in skin, flesh, without salt,87.0,90.0,3,1.2,2.01,68,0.3,0.15,-50
+13-491,Potatoes, old, baked, flesh and skin,vegetable,Sweet potatoes, orange flesh, without skin, raw,97.0,78.999,-19,2.5,1.578125,-37,0.2,0.375,87
+13-494,Potatoes, old, microwaved, flesh and skin,vegetable,Potatoes, microwaved, cooked in skin, flesh and skin, without salt,92.0,105.0,14,2.6,2.44,-6,0.1,0.1,0
+13-495,Potatoes, new and salad, boiled in unsalted water, flesh and skin,vegetable,Potatoes, flesh and skin, raw,68.0,77.0,13,1.8,2.05,14,0.1,0.09,-10
+13-508,Sweetcorn, kernels, boiled 'on the cob' in unsalted water,vegetable,Corn, sweet, yellow, frozen, kernels on cob, unprepared,67.0,98.0,46,3.6,3.28,-9,1.9,0.78,-59
+13-535,Baked beans, canned in tomato sauce, reduced sugar, reduced salt,vegetable,Tomato, sauce, canned, with salt added,75.0,34.1765,-54,5.0,1.351875,-73,0.5,0.3825,-24
+13-553,Potatoes, old, mashed with butter,vegetable,Potatoes, mashed, home-prepared, whole milk and butter added,102.0,113.0,11,1.9,1.86,-2,3.9,4.22,8
+13-564,Peas, canned in water, re-heated, drained,vegetable,Peas, green, canned, drained solids, rinsed in tap water,59.0,71.0,20,5.3,4.33,-18,0.9,0.95,6
+13-579,Baked beans, canned in tomato sauce, with pork sausages,vegetable,Beans, baked, canned, with pork and tomato sauce,98.0,94.0,-4,6.0,5.15,-14,4.5,0.93,-79
+13-606,Sweetcorn, kernels, boiled 'on the cob' in unsalted water, weighed with core,vegetable,Corn, sweet, yellow, frozen, kernels on cob, cooked, boiled, drained, without salt,39.0,94.0,141,2.1,3.11,48,1.1,0.74,-33
+13-610,Potatoes, new and salad, boiled in salted water, flesh and skin,vegetable,Potatoes, russet, flesh and skin, raw (Includes foods for USDA's Food Distribution Program),68.0,79.0,16,1.8,2.14,19,0.1,0.08,-20
+13-621,Potatoes, old, baked, flesh only, weighed with skin,vegetable,Potatoes, white, flesh and skin, raw,52.0,69.0,33,1.5,1.68,12,0.1,0.1,0
+13-623,Sweetcorn, kernels, 'on-the-cob', raw, weighed with core,vegetable,Corn, sweet, yellow, frozen, kernels on cob, cooked, boiled, drained, with salt,36.0,94.0,161,2.0,3.11,55,1.1,0.74,-33
+13-646,Sweet potato, flesh only, boiled in unsalted water,vegetable,Sweet potato, cooked, baked in skin, flesh, with salt,58.0,90.0,55,1.7,2.01,18,0.2,0.15,-25
+13-647,Sweet potato, wedges, flesh and skin, baked in rapeseed oil,vegetable,Sweet potato, cooked, boiled, without skin,139.0,76.0,-45,2.9,1.37,-53,3.9,0.14,-96
+13-656,Radish, red, flesh and skin, raw,vegetable,Potatoes, red, flesh and skin, raw,12.0,70.0,483,0.7,1.89,170,0.4,0.14,-65
+13-659,Beans, red kidney, dried, boiled in unsalted water,vegetable,Beans, kidney, red, mature seeds, canned, drained solids, rinsed in tap water,100.0,121.0,21,8.6,8.12,-6,1.0,0.93,-7
+13-660,Beans, red kidney, canned in water, re-heated, drained,vegetable,Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed,100.0,126.624,27,8.6,7.8,-9,1.0,1.256,26
+14-027,Apricots, stewed with sugar,fruit,Apricots, dried, sulfured, stewed, without added sugar,72.0,85.0,18,0.7,1.2,71,0.1,0.18,80
+14-028,Apricots, stewed with sugar, weighed with stones,fruit,Apricots, dried, sulfured, stewed, with added sugar,67.0,113.0,69,0.6,1.17,95,0.1,0.15,50
+14-029,Apricots, stewed without sugar,fruit,Plums, dried (prunes), stewed, without added sugar,27.0,107.0,296,0.7,0.96,37,0.1,0.16,60
+14-030,Apricots, stewed without sugar, weighed with stones,fruit,Pears, dried, sulfured, stewed, without added sugar,25.0,127.0,408,0.7,0.91,30,0.1,0.31,210
+14-033,Apricots, dried, stewed without sugar,fruit,Peaches, dried, sulfured, stewed, without added sugar,77.0,77.0,0,2.0,1.16,-42,0.3,0.25,-17
+14-050,Blackberries, stewed without sugar,fruit,Apples, dried, sulfured, stewed, without added sugar,21.0,57.0,171,0.8,0.22,-73,0.2,0.07,-65
+14-097,Fruit cocktail, canned in syrup, whole contents,fruit,Fruit cocktail, canned, heavy syrup, drained,57.0,70.0,23,0.4,0.47,17,,,
+14-222,Plums, Victoria, stewed without sugar,fruit,Plums, dried (prunes), stewed, with added sugar,34.0,124.0,265,0.5,1.09,118,0.1,0.22,120
+14-272,Apple juice concentrate, unsweetened, commerical,beverage,Apple juice, frozen concentrate, unsweetened, diluted with 3 volume water, with added ascorbic acid,223.0,47.0,-79,0.5,0.14,-72,0.6,0.1,-83
+14-285,Passion fruit juice,fruit,Passion-fruit juice, purple, raw,47.0,51.0,9,0.8,0.39,-51,0.1,0.05,-50
+14-320,Apples, cooking, stewed without sugar, flesh only,fruit,Apples, dried, sulfured, stewed, with added sugar,40.0,83.0,108,0.2,0.2,0,0.3,0.07,-77
+14-329,Orange juice, chilled,fruit,Orange juice, chilled, includes from concentrate, with added calcium and vitamins A, D, E,36.0,49.0,36,0.9,0.68,-24,,,
+14-336,Fruit cocktail, canned in juice, whole contents,fruit,Fruit cocktail, (peach and pineapple and pear and grape and cherry), canned, juice pack, solids and liquids,45.0,46.0,2,0.4,0.46,15,,,
+14-343,Apples, cooking, baked without sugar, flesh only, weighed with skin,fruit,Apples, raw, without skin,40.0,48.0,20,0.2,0.27,35,0.3,0.13,-57
+14-367,Pears, average, stewed with sugar,fruit,Pears, dried, sulfured, stewed, with added sugar,72.0,140.0,94,0.2,0.86,330,0.1,0.29,190
+14-369,Orange juice, freshly squeezed,fruit,Orange juice, 100%,  freshly squeezed,33.0,47.0,42,0.6,0.81,35,,,
+14-846,Sunflower seeds, toasted,nut_seed,Seeds, sunflower seed kernels, toasted, with salt added,602.0,619.0,3,20.5,17.21,-16,49.2,56.8,15
+15-856,Rice and black-eye beans, brown rice,vegetable,Black beans and brown rice,164.0,158.0,-4,5.9,5.91,0,2.4,4.65,94
+15-860,Rice and red kidney beans, brown rice,vegetable,Kidney beans and brown rice,152.0,155.0,2,5.5,5.81,6,2.3,4.63,101
+16-417,Tuna, canned in sunflower oil, drained,fish,Fish, tuna, white, canned in oil, without salt, drained solids,159.0,186.0,17,25.4,26.53,4,6.4,8.08,26
+16-420,Salmon, pink, canned in brine, drained,fish,Fish, Salmon, pink, canned, drained solids, without skin and bones,138.0,136.0,-1,23.6,24.62,4,4.8,4.21,-12
+16-440,Sardines, canned in olive oil, drained,fish,Anchovies, canned in olive oil, with salt, drained,220.0,206.065,-6,23.3,26.9375,16,14.1,9.853,-30
+16-483,Salmon, farmed, flesh only, steamed, fillets weighed with bones and skin,fish,Salmon, sockeye, canned, drained solids, without skin and bones,227.0,158.0,-30,20.5,26.33,28,16.1,5.87,-64
+17-156,Coffee, infusion, average, with whole milk,beverage,Beverages, coffee substitute, cereal grain beverage, powder, prepared with whole milk,7.0,65.0,829,0.5,3.3,560,0.4,3.3,725
+17-158,Coffee, powder, instant,beverage,Beverages, coffee, instant, regular, powder,75.0,353.0,371,14.6,12.2,-16,,,
+17-159,Coffee, instant, made up with water,beverage,Beverages, coffee, instant, decaffeinated, prepared with water,,,,0.0,0.12,120,,,
+17-160,Coffee, instant, made up with water and whole milk,beverage,Beverages, coffee, instant, regular, prepared with water,8.0,2.0,-75,0.5,0.1,-80,0.4,0.0,-100
+17-329,Sauce, dry, casserole mix,seasoning,Sauce, alfredo mix, dry,330.0,535.0,62,9.7,15.32,58,3.9,36.35,832
+17-336,Sauce, sweet and sour, take-away,seasoning,Sauce, sweet and sour, ready-to-serve,157.0,154.0,-2,0.2,0.27,35,3.4,0.02,-99
+17-488,Oil, cod liver,oil_fat,Fish oil, cod liver,899.0,902.0,0,,,,99.9,100.0,0
+17-499,Drinking chocolate, powder, reduced fat,beverage,Beverages, Dairy drink mix, chocolate, reduced calorie, with low-calorie sweeteners, powder,354.0,329.0,-7,6.4,25.0,291,2.3,2.6,13
+17-618,Sauce, pasta, tomato based, for bolognese,seasoning,Sauce, steak, tomato based,44.0,95.0,116,1.5,1.25,-17,1.3,0.23,-82
+17-619,Sauce, pasta, tomato based, napoletana,seasoning,Pasta with tomato-based sauce, cheese and meat,65.0,147.0,126,1.5,7.61,407,3.8,7.1,87
+17-620,Sauce, pasta, tomato based, reduced fat,seasoning,Turnover, meat- and cheese-filled, tomato-based sauce, reduced fat, frozen,33.0,215.0,552,1.4,9.45,575,0.3,5.51,1737
+17-621,Sauce, pasta, tomato based, with added vegetables,seasoning,Pasta with tomato-based sauce, and added vegetables, restaurant,46.0,158.0,243,1.4,3.46,147,2.1,7.84,273
+17-628,Sauce, Chinese cook in, sweet & sour,seasoning,Sauce, sweet and sour, prepared-from-recipe,94.0,79.0,-16,0.5,1.84,268,1.0,0.58,-42
+17-649,Caramel bars and sweets, chocolate covered,sugar,Candies, chocolate covered, caramel with nuts,493.0,470.0,-5,4.2,9.5,126,23.6,21.0,-11
+17-658,Chocolate covered bar with caramel and cereal,sugar,Candies, coconut bar, not chocolate covered,501.0,481.0,-4,5.2,2.13,-59,25.8,27.65,7
+17-667,White sauce, savoury, made with semi-skimmed milk, homemade,seasoning,Sauce, homemade, white, medium,131.0,147.0,12,4.4,3.84,-13,8.0,10.63,33
+17-669,Milky Way and own brand equivalents,sugar,Candies, MARS SNACKFOOD US, POP'ABLES MILKY WAY Brand Bite Size Candies,444.0,463.0,4,3.8,3.3,-13,15.7,18.0,15
+17-672,Energy drink, carbonated,beverage,Beverages, Energy Drink with carbonated water and high fructose corn syrup,42.0,62.0,48,,,,0.0,0.0,0
+17-673,Fruit juice drink, carbonated, no added sugar, ready to drink,beverage,Beverages, Fruit flavored drink, reduced sugar, greater than 3% fruit juice, high vitamin C, added calcium,2.0,29.0,1350,,,,,,
+17-674,High juice drink, no added sugar, undiluted,beverage,Beverages, fruit juice drink, greater than 3% fruit juice, high vitamin C and added thiamin,18.0,54.0,200,0.3,0.13,-57,,,
+17-689,Ice cream sauce, topping, strawberry and chocolate flavours,sugar,Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry,276.0,161.0,-42,0.4,4.69,1072,0.2,4.35,2075
+17-695,Soup, chicken, cream of, canned,seasoning,Soup, cream of chicken, canned, condensed,58.0,90.0,55,1.7,2.38,40,3.8,5.77,52
+17-696,Soup, chicken, cream of, canned, condensed,seasoning,Soup, cream of chicken, canned, condensed, reduced sodium,85.0,58.0,-32,2.6,1.8,-31,5.8,1.3,-78
+17-697,Chicken soup, cream of, canned, condensed, as served,seasoning,Soup, chicken gumbo, canned, condensed,43.0,45.0,5,1.3,2.1,62,2.9,1.14,-61
+17-713,Soup, mushroom, cream of, canned,seasoning,Soup, cream of mushroom, canned, condensed,46.0,79.0,72,1.1,1.35,23,3.0,5.3,77
+17-714,Soup, chicken noodle, dried, as served,seasoning,Soup, chunky chicken noodle, canned, ready-to-serve,19.0,41.0,116,1.0,3.09,209,0.3,1.16,287
+17-732,Instant drinks powder, chocolate, low calorie,beverage,Beverages, fruit-flavored drink, powder, with high vitamin C with other added vitamins, low calorie,359.0,227.0,-37,16.0,0.25,-98,11.1,0.16,-99
+17-735,Fruit juice drink, carbonated, ready to drink,beverage,Beverages, Lemonade fruit juice drink light, fortified with vitamin E and C,27.0,21.0,-22,,,,,,
+17-738,Fruit juice drink/squash, undiluted,beverage,Beverages, citrus fruit juice drink, frozen concentrate,34.0,162.0,376,0.1,1.2,1100,,,
+17-739,Fruit juice drink/squash, no sugar added, undiluted,beverage,Beverages, fruit juice drink, reduced sugar, with vitamin E added,6.0,39.0,550,0.1,0.0,-100,,,
+17-740,High juice drink, undiluted,beverage,Beverages, fruit juice drink, greater than 3% juice, high vitamin C,161.0,46.0,-71,0.3,0.13,-57,,,
+17-741,Fruit juice drink/squash, ready to drink,beverage,Beverages, citrus fruit juice drink, frozen concentrate, prepared with water,37.0,46.0,24,0.1,0.34,240,,,
+17-742,Fruit juice drink, no added sugar, ready to drink,beverage,Beverages, Mixed vegetable and fruit juice drink, with added nutrients,4.0,29.0,625,0.2,0.04,-80,,,
+17-744,Cranberry fruit juice drink,beverage,Beverages, cranberry-apple juice drink, low calorie, with vitamin C added,45.0,19.0,-58,,,,0.0,0.0,0
+17-774,Stock cubes, chicken, made up with water,seasoning,Soup, chicken broth cubes, dry, prepared with water,,,,0.5,0.39,-22,0.5,0.12,-76
+17-778,White sauce, savoury, made with skimmed milk, homemade,seasoning,Sauce, homemade, white, thick,118.0,186.0,58,4.5,3.99,-11,6.5,13.83,113
+17-790,Drinking chocolate powder, made up with semi-skimmed milk,beverage,Beverages, chocolate malt powder, prepared with 1% milk, fortified,74.0,57.0,-23,3.7,3.32,-10,2.0,0.97,-52
+17-791,Drinking chocolate powder, made up with skimmed milk,beverage,Beverages, chocolate-flavor beverage mix, powder, prepared with whole milk,62.0,85.0,37,3.7,3.23,-13,0.7,3.24,363
+17-792,Drinking chocolate powder, made up with whole milk,beverage,Beverages, chocolate-flavor beverage mix for milk, powder, with added nutrients, prepared with whole milk,89.0,89.0,0,3.6,3.27,-9,3.8,3.17,-17
+17-803,Horlicks powder, made up with whole milk,beverage,Beverages, Eggnog-flavor mix, powder, prepared with whole milk,98.0,95.0,-3,4.1,2.93,-29,3.5,3.02,-14
+17-820,Ovaltine powder, made up with whole milk,beverage,Beverages, Malted drink mix, natural, with added nutrients, powder, prepared with whole milk,96.0,86.0,-10,3.8,3.67,-3,3.4,3.21,-6
+17-829,Soup, pea and ham, homemade,seasoning,Soup, pea, split with ham, canned, condensed,73.0,141.0,93,4.1,7.68,87,2.2,3.28,49
+17-846,Fruit juice drink/squash, no sugar added, diluted,beverage,Beverages, Vegetable and fruit juice drink, reduced calorie, with low-calorie sweetener, added vitamin C,1.0,4.0,300,0.0,0.0,0,,,
+17-847,Fruit juice drink/squash, diluted,beverage,Beverages, Fruit flavored drink, less than 3% juice, not fortified with vitamin C,7.0,64.0,814,0.0,0.0,0,,,
+17-848,High juice drink, diluted,beverage,Beverages, Fruit flavored drink containing less than 3% fruit juice, with high vitamin C,32.0,27.0,-16,0.1,0.0,-100,,,
+17-850,Soup, chicken noodle, dried,seasoning,Soup, chicken noodle, canned, condensed,322.0,48.0,-85,17.1,2.37,-86,4.8,1.55,-68
+18-008,Beef, braising steak, braised, lean only,meat,Beef, flank, steak, separable lean only, trimmed to 0" fat, choice, cooked, braised,225.0,237.0,5,34.4,28.02,-19,9.7,13.0,34
+18-009,Beef, braising steak, braised, lean and fat,meat,Beef, round, bottom round, steak, separable lean and fat, trimmed to 1/8" fat, choice, cooked, braised,246.0,254.0,3,32.9,32.85,-0,12.7,12.56,-1
+18-028,Beef, fore-rib/rib-roast, raw, lean,meat,Beef, rib eye roast, bone-in, lip-on, separable lean only, trimmed to 1/8" fat, all grades, cooked, roasted,145.0,231.0,59,21.5,27.12,26,6.5,13.64,110
+18-029,Beef, fore-rib/rib-roast, raw, lean and fat,meat,Beef, rib eye roast, bone-in, lip-on, separable lean only, trimmed to 1/8" fat, select, cooked, roasted,253.0,219.0,-13,18.8,27.03,44,19.8,12.29,-38
+18-030,Beef, fore-rib/rib-roast, microwaved, lean,meat,Beef, rib eye steak/roast, bone-in, lip-on, separable lean only, trimmed to 1/8" fat, select, raw,243.0,155.0,-36,35.0,21.65,-38,11.4,7.64,-33
+18-031,Beef, fore-rib/rib-roast, microwaved, lean and fat,meat,Beef, rib eye steak/roast, boneless, lip-on, separable lean only, trimmed to 1/8" fat, all grades, raw,306.0,156.0,-49,30.4,21.99,-28,20.5,7.54,-63
+18-032,Beef, fore-rib/rib-roast, microwaved, lean and fat, weighed with bone,meat,Beef, rib eye roast, bone-in, lip-on, separable lean only, trimmed to 1/8" fat, choice, cooked, roasted,254.0,240.0,-6,25.2,27.18,8,17.0,14.55,-14
+18-033,Beef, fore-rib/rib-roast, roasted, lean,meat,Beef, rib eye steak/roast, boneless, lip-on, separable lean only, trimmed to 1/8" fat, choice, raw,236.0,161.0,-32,33.3,21.62,-35,11.4,8.29,-27
+18-034,Beef, fore-rib/rib-roast, roasted, lean and fat,meat,Beef, rib eye steak/roast, boneless, lip-on, separable lean only, trimmed to 1/8" fat, select, raw,300.0,148.0,-51,29.1,22.55,-23,20.4,6.41,-69
+18-035,Beef, fore-rib/rib-roast, roasted, lean and fat, weighed with bone,meat,Beef, rib eye steak/roast, bone-in, lip-on, separable lean only, trimmed to 1/8" fat, all grades, raw,252.0,166.0,-34,24.4,21.22,-13,17.1,9.04,-47
+18-064,Beef, sirloin steak, raw, lean,meat,Beef, top sirloin steak, raw,135.0,140.144,4,23.5,21.975,-6,4.5,5.708,27
+18-065,Beef, sirloin steak, raw, lean and fat,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 0" fat, select, cooked, broiled,201.0,206.0,2,21.6,29.65,37,12.7,8.8,-31
+18-066,Beef, sirloin steak, fried in corn oil, lean,meat,Beef, top sirloin, steak, separable lean only, trimmed to 0" fat, all grades, cooked, broiled,189.0,183.0,-3,28.8,30.55,6,8.2,5.79,-29
+18-067,Beef, sirloin steak, fried in corn oil, lean and fat,meat,Beef, top sirloin, steak, separable lean only, trimmed to 0" fat, choice, cooked, broiled,233.0,188.0,-19,26.8,30.29,13,14.0,6.55,-53
+18-068,Beef, sirloin steak, grilled rare, lean,meat,Beef, top sirloin, steak, separable lean only, trimmed to 0" fat, select, cooked, broiled,166.0,177.0,7,26.4,30.8,17,6.7,5.03,-25
+18-069,Beef, sirloin steak, grilled rare, lean and fat,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8" fat, all grades, raw,216.0,201.0,-7,25.1,20.3,-19,12.8,12.71,-1
+18-070,Beef, sirloin steak, grilled medium-rare, lean,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8" fat, all grades, cooked, broiled,176.0,243.0,38,26.6,26.96,1,7.7,14.23,85
+18-071,Beef, sirloin steak, grilled medium-rare, lean and fat,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8" fat, choice, raw,213.0,214.0,0,24.8,19.92,-20,12.6,14.28,13
+18-072,Beef, sirloin steak, grilled well-done, lean,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8" fat, choice, cooked, broiled,225.0,257.0,14,33.9,26.8,-21,9.9,15.75,59
+18-073,Beef, sirloin steak, grilled well-done, lean and fat,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 0" fat, all grades, cooked, broiled,257.0,212.0,-18,31.8,29.33,-8,14.4,9.67,-33
+18-074,Beef, sirloin steak, from steakhouse, lean,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 0" fat, choice, cooked, broiled,172.0,219.0,27,31.5,29.02,-8,5.1,10.54,107
+18-075,Beef, sirloin steak, from steakhouse, lean and fat,meat,Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8" fat, choice, cooked, pan-fried,215.0,313.0,46,29.6,28.77,-3,10.7,21.06,97
+18-124,Lamb, leg chops, grilled, lean and fat,meat,Lamb, Australian, imported, fresh, leg, sirloin chops, boneless, separable lean and fat, trimmed to 1/8" fat, raw,221.0,208.0,-6,28.3,18.33,-35,12.0,14.38,20
+18-125,Lamb, leg chops, grilled, lean and fat, weighed with bone,meat,Lamb, New Zealand, imported, leg chop/steak, bone-in, separable lean only, raw,186.0,126.0,-32,23.8,21.1,-11,10.1,4.64,-54
+18-126,Lamb, leg, half fillet, braised, lean,meat,Lamb, leg, shank half, separable lean and fat, trimmed to 1/4" fat, choice, cooked, roasted,204.0,225.0,10,27.3,26.41,-3,10.5,12.45,19
+18-127,Lamb, leg, half fillet, braised, lean and fat,meat,Lamb, leg, shank half, separable lean only, trimmed to 1/4" fat, choice, raw,256.0,125.0,-51,25.6,20.52,-20,17.1,4.19,-75
+18-128,Lamb, leg, half knuckle, pot-roasted, lean,meat,Lamb, leg, shank half, separable lean only, trimmed to 1/4" fat, choice, cooked, roasted,201.0,180.0,-10,29.4,28.17,-4,9.3,6.67,-28
+18-129,Lamb, leg, half knuckle, pot-roasted, lean and fat,meat,Lamb, leg, sirloin half, separable lean and fat, trimmed to 1/4" fat, choice, raw,237.0,272.0,15,28.1,16.94,-40,13.8,22.11,60
+18-130,Lamb, leg, half knuckle, pot-roasted, lean and fat, weighed with bone,meat,Lamb, leg, shank half, separable lean and fat, trimmed to 1/8" fat, choice, cooked, roasted,173.0,217.0,25,20.5,26.73,30,10.1,11.4,13
+18-137,Lamb, leg, whole, roasted well done, lean,meat,Lamb, New Zealand, imported, frozen, leg, whole (shank and sirloin), separable lean only, cooked, roasted,208.0,181.0,-13,31.3,27.68,-12,9.2,7.01,-24
+18-138,Lamb, leg, whole, roasted well done, lean and fat,meat,Lamb, New Zealand, imported, frozen, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/8" fat, raw,242.0,201.0,-17,29.8,18.76,-37,13.6,13.37,-2
+18-167,Lamb, rack of, raw, lean and fat, weighed with bone,meat,Lamb, Australian, imported, fresh, rack, roast, frenched, denuded, bone-in, separable lean and fat, trimmed to 0" fat, cooked, roasted,204.0,193.0,-5,12.5,25.95,108,17.1,9.91,-42
+18-175,Lamb, shoulder, half knuckle, braised, lean,meat,Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/4" fat, choice, cooked, braised,212.0,344.0,62,25.1,28.68,14,12.4,24.55,98
+18-176,Lamb, shoulder, half knuckle, braised, lean and fat,meat,Lamb, shoulder, arm, separable lean and fat, trimmed to 1/4" fat, choice, cooked, braised,302.0,346.0,15,22.9,30.39,33,23.4,24.0,3
+18-179,Lamb, shoulder, whole, roasted, lean,meat,Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/4" fat, choice, raw,218.0,264.0,21,27.2,16.58,-39,12.1,21.45,77
+18-180,Lamb, shoulder, whole, roasted, lean and fat,meat,Lamb, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4" fat, choice, cooked, broiled,298.0,210.0,-30,24.7,27.12,10,22.1,10.5,-52
+18-181,Lamb, shoulder, whole, roasted, lean and fat, weighed with bone,meat,Lamb, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4" fat, choice, cooked, roasted,235.0,204.0,-13,19.5,24.94,28,17.5,10.77,-38
+18-188,Lamb, New Zealand, leg, whole, chilled, roasted, lean,meat,Lamb, New Zealand, imported, frozen, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/8" fat, cooked, roasted,207.0,234.0,13,28.8,25.34,-12,10.2,13.95,37
+18-189,Lamb, New Zealand, leg, whole, chilled, roasted, lean and fat,meat,Lamb, New Zealand, imported, frozen, leg, whole (shank and sirloin), separable lean and fat, cooked, roasted,230.0,246.0,7,28.0,24.81,-11,13.1,15.56,19
+18-190,Lamb, New Zealand, leg, whole, frozen, raw, lean and fat, weighed with bone,meat,Lamb, New Zealand, imported, leg chop/steak, bone-in, separable lean and fat, raw,160.0,206.0,29,15.0,18.64,24,11.1,14.52,31
+18-191,Lamb, New Zealand, leg, whole, frozen, roasted, lean,meat,Lamb, New Zealand, imported, tunnel-boned leg, chump off, shank off, separable lean and fat, cooked, slow roasted,206.0,208.0,1,30.6,23.41,-23,9.3,12.68,36
+18-192,Lamb, New Zealand, leg, whole, frozen, roasted, lean and fat,meat,Lamb, New Zealand, imported, frozen, shoulder, whole (arm and blade), separable lean only, cooked, braised,243.0,285.0,17,29.0,34.06,17,14.1,15.5,10
+18-193,Lamb, New Zealand, leg, whole, frozen, roasted, lean and fat, weighed with bone,meat,Lamb, New Zealand, imported, leg chop/steak, bone-in, separable lean only, cooked, fast fried,178.0,162.0,-9,21.2,26.31,24,10.3,6.35,-38
+18-194,Lamb, New Zealand, loin chops, frozen, grilled, lean,meat,Lamb, New Zealand, imported, loin chop, separable lean and fat, raw,249.0,298.0,20,31.4,15.4,-51,13.7,26.19,91
+18-195,Lamb, New Zealand, loin chops, frozen, grilled, lean, weighed with fat and bone,meat,Lamb, New Zealand, imported, frozen, loin, separable lean and fat, trimmed to 1/8" fat, raw,147.0,273.0,86,18.5,17.18,-7,8.1,22.1,173
+18-196,Lamb, New Zealand, loin chops, frozen, grilled, lean and fat,meat,Lamb, New Zealand, imported, frozen, loin, separable lean and fat, trimmed to 1/8" fat, cooked, broiled,364.0,296.0,-19,26.9,24.41,-9,28.5,21.28,-25
+18-197,Lamb, New Zealand, loin chops, frozen, grilled, lean and fat, weighed with bone,meat,Lamb, New Zealand, imported, loin saddle, separable lean only, cooked, fast roasted,287.0,162.0,-44,21.2,25.53,20,22.5,6.7,-70
+18-198,Lamb, New Zealand, mince, frozen, stewed,meat,Lamb, New Zealand, imported, frozen, composite of trimmed retail cuts, separable fat, raw,243.0,640.0,163,20.9,6.92,-67,17.7,67.63,282
+18-199,Lamb, New Zealand, shoulder, whole, frozen, roasted, lean,meat,Lamb, New Zealand, imported, frozen, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8" fat, raw,251.0,251.0,0,27.6,17.19,-38,15.6,19.74,27
+18-200,Lamb, New Zealand, shoulder, whole, frozen, roasted, lean and fat,meat,Lamb, New Zealand, imported, frozen, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8" fat, cooked, braised,350.0,342.0,-2,24.6,29.43,20,27.9,24.03,-14
+18-293,Chicken, leg quarter, raw, meat and skin,meat,Chicken, broilers or fryers, leg, meat and skin, raw,193.0,214.0,11,18.3,16.37,-11,13.3,15.95,20
+18-294,Chicken, leg quarter, raw, meat and skin, weighed with bone,meat,Duck, young duckling, domesticated, White Pekin, leg, meat and skin, bone in, cooked, roasted,133.0,217.0,63,12.6,26.75,112,9.2,11.4,24
+18-295,Chicken, wing quarter, raw, meat and skin,meat,Chicken, wing, meat and skin, raw,193.0,167.55,-13,20.3,18.40625,-9,12.4,10.64,-14
+18-296,Chicken, wing quarter, raw, meat and skin, weighed with bone,meat,Turkey, wing, smoked, cooked, with skin, bone removed,127.0,221.0,74,13.4,27.4,104,8.2,12.41,51
+18-308,Chicken, breast, casseroled, meat and skin,meat,Chicken, breast, meat and skin, raw,184.0,126.905,-31,26.9,21.40625,-20,8.5,4.777,-44
+18-309,Chicken, breast, casseroled, meat and skin, weighed with bone,meat,Chicken, broilers or fryers, breast, meat and skin, cooked, roasted,165.0,197.0,19,24.2,29.8,23,7.6,7.78,2
+18-314,Chicken, leg quarter, casseroled, meat and skin,meat,Chicken, broilers or fryers, leg, meat and skin, cooked, fried, batter,217.0,273.0,26,22.9,21.77,-5,13.9,16.17,16
+18-315,Chicken, leg quarter, casseroled, meat and skin, weighed with bone,meat,Duck, young duckling, domesticated, White Pekin, leg, meat only, bone in, cooked without skin, braised,137.0,178.0,30,14.4,29.1,102,8.8,5.96,-32
+18-321,Chicken, wing quarter, casseroled, meat and skin,meat,Chicken, broilers or fryers, rotisserie, original seasoning, wing, meat and skin, cooked,210.0,266.0,27,24.4,24.34,-0,12.5,18.77,50
+18-322,Chicken, wing quarter, casseroled, meat and skin, weighed with bone,meat,Chicken, broilers or fryers, wing, meat and skin, raw,141.0,191.0,35,16.3,17.52,7,8.4,12.85,53
+18-323,Chicken, breast, grilled without skin, meat only,meat,Chicken, broilers or fryers, breast, meat and skin, cooked, stewed,148.0,184.0,24,32.0,27.39,-14,2.2,7.42,237
+18-324,Chicken, breast, grilled with skin, meat only,meat,Chicken, broilers or fryers, rotisserie, original seasoning, breast, meat and skin, cooked,147.0,184.0,25,29.8,27.48,-8,3.1,8.18,164
+18-325,Chicken, breast, grilled, meat and skin,meat,Chicken, broiler, rotisserie, BBQ, breast, meat and skin,173.0,175.0,1,28.9,26.37,-9,6.4,7.67,20
+18-327,Chicken, portions, not coated, deep-fried, meat and skin,meat,Chicken, NS as to part, fried, coated, skin / coating not eaten,259.0,164.0,-37,26.9,26.18,-3,16.8,6.58,-61
+18-328,Chicken, portions, not coated, deep-fried, meat and skin, weighed with bone,meat,Chicken, NS as to part, baked, coated, skin / coating not eaten,179.0,164.0,-8,18.6,26.18,41,11.6,6.58,-43
+18-337,Chicken, leg quarter, roasted, meat and skin,meat,Chicken, broilers or fryers, leg, meat and skin, cooked, fried, flour,236.0,254.0,8,20.9,26.84,28,16.9,14.43,-15
+18-338,Chicken, leg quarter, roasted, meat and skin, weighed with bone,meat,Chicken, broilers or fryers, leg, meat and skin, cooked, roasted,120.0,184.0,53,10.7,24.03,125,8.6,8.99,5
+18-339,Chicken, wing quarter, roasted, meat and skin,meat,Chicken, broiler, rotisserie, BBQ, wing, meat and skin,226.0,257.0,14,24.8,23.42,-6,14.1,18.04,28
+18-340,Chicken, wing quarter, roasted, meat and skin, weighed with bone,meat,Chicken, broilers or fryers, wing, meat and skin, cooked, fried, batter,120.0,324.0,170,13.1,19.87,52,7.5,21.81,191
+18-366,Turkey, drumsticks, roasted, meat and skin, weighed with bone,meat,Turkey, drumstick, smoked, cooked, with skin, bone removed,134.0,200.0,49,19.7,27.9,42,6.1,9.8,61
+18-367,Turkey, whole, roasted, meat and skin,meat,Turkey, whole, meat and skin, raw,190.0,144.0,-24,30.9,21.64,-30,7.4,5.64,-24
+18-368,Turkey, whole, roasted, meat and skin, weighed with bone,meat,Turkey, light or dark meat, smoked, cooked, skin and bone removed,124.0,162.0,31,20.1,29.3,46,4.8,5.0,4
+18-479,Lamb, leg, whole, roasted, lean only,meat,Lamb, Australian, imported, fresh, leg, whole (shank and sirloin), separable lean only, trimmed to 1/8" fat, raw,203.0,135.0,-33,29.7,20.46,-31,9.4,5.23,-44
+18-480,Lamb, leg, whole, roasted, lean and fat,meat,Lamb, Australian, imported, fresh, leg, whole (shank and sirloin), separable lean only, trimmed to 1/8" fat, cooked, roasted,240.0,190.0,-21,28.1,27.31,-3,14.2,8.1,-43
+18-513,Pork, leg joint, raw, lean and fat, trimmed,meat,Pork, fresh, composite of trimmed leg, loin, shoulder, and spareribs, (includes cuts to be cured), separable lean and fat, raw,142.0,211.0,49,22.4,18.22,-19,5.8,14.79,155
+18-537,Pork, loin chops, raw, lean and fat, weighed with bone,meat,Pork, fresh, loin, blade (chops or roasts), bone-in, separable lean and fat, raw,162.0,194.0,20,18.1,19.56,8,10.0,12.27,23
+18-542,Pork, shoulder chops (collar), braised, lean,meat,Pork, fresh, shoulder, arm picnic, separable lean only, cooked, braised,213.0,194.0,-9,30.5,26.76,-12,10.1,8.87,-12
+18-543,Pork, shoulder chops (collar), braised, lean and fat,meat,Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean and fat, cooked, braised,247.0,267.0,8,28.1,25.07,-11,15.0,17.69,18
+18-544,Pork, shoulder chops (collar), braised, lean and fat, weighed with bone,meat,Pork, fresh, loin, blade (chops), bone-in, separable lean and fat, cooked, braised,190.0,255.0,34,21.6,26.54,23,11.5,15.71,37
+18-611,Pork, loin chops, roasted, lean and fat, weighed with bone,meat,Pork, fresh, loin, blade (chops), bone-in, separable lean and fat, cooked, broiled,191.0,231.0,21,27.9,23.72,-15,8.8,14.35,63
+19-264,Pork, spare ribs, 'barbecue style', meat only, retail, reheated,meat,Pork, fresh, loin, country-style ribs, separable lean and fat, raw,281.0,189.0,-33,26.3,19.34,-26,17.1,11.82,-31
+19-265,Pork, spare ribs, 'barbecue style', meat only, retail, reheated, weighed with bone,meat,Pork, fresh, loin, country-style ribs, separable lean and fat, bone-in, cooked, roasted,98.0,359.0,266,9.2,21.75,136,6.0,29.46,391
+19-613,Meatballs, pork and beef, in tomato sauce, homemade,meat,Meat loaf made with beef and pork, with tomato-based sauce,123.0,157.0,28,10.0,13.63,36,7.2,8.18,14
+19-631,Cabbage leaves, stuffed with lamb and rice, homemade,meat,Stuffed grape leaves with lamb and rice,100.0,271.0,171,7.1,8.17,15,4.2,21.52,412
+19-670,Pork, spare ribs, 'barbecue style', homemade,meat,Pork, fresh, loin, country-style ribs, separable lean and fat, cooked, braised,302.0,273.0,-10,20.8,26.49,27,22.3,17.71,-21
+19-671,Pork, spare ribs, 'barbecue style', homemade, weighed with bone,meat,Pork, fresh, loin, country-style ribs, separable lean only, bone-in, cooked, roasted,142.0,227.0,60,9.7,29.2,201,10.4,11.38,9
+19-673,Pork, spare ribs, in black bean sauce, meat and sauce only, homemade, weighed with bone,meat,Pork, fresh, loin, country-style ribs, separable lean only, bone-in, cooked, broiled,123.0,216.0,76,8.2,27.83,239,8.2,11.65,42
