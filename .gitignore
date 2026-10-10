@@ -1,0 +1,6 @@
+# 临时与缓存
+*.tmp
+*.log
+.DS_Store
+__pycache__/
+*.pyc
