@@ -12,13 +12,20 @@
 注意：CIQUAL / CoFID 等欧洲表使用「小数逗号」（"4,41" 表示 4.41），
       数值化前必须先把逗号换成点号，否则会全部变成 NaN。
 """
+import os
+import os as _os
+import sys as _sys
+
+# 仓库根目录（本文件位于 <root>/scripts/import/build_intl.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
 import sqlite3, os, re, warnings
 import pandas as pd
 
 warnings.filterwarnings("ignore")
 
-BASE = "/workspace/fdc"
-DB = os.path.join(BASE, "nutrition.db")
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DB = os.environ.get("FDC_DB", os.path.join(BASE, "nutrition.db"))
 INTL = os.path.join(BASE, "intl")
 
 # ---------------------------------------------------------------- 工具

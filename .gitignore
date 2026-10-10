@@ -4,8 +4,20 @@ usda/
 __pycache__/
 *.pyc
 *.bak
+extract/
+
+# 主库本体（4.36 GB，超 GitHub 单文件 100 MB 限制）
+# 仓库内交付的是 data/nutrition_data.sql.gz（gzip 后 ~8 MB）
+nutrition.db
+/nutrition.db
+# 脚本默认写入 <repo>/nutrition.db，防止在仓库根误建空壳库时误提交
+/nutrition.db-shm
+/nutrition.db-wal
+fooddata_central.db
+intl_sea/*.pdf
 
 # 注意：以下有意提交，勿忽略
 #   data/usda/**/*.csv.gz.partNNN   USDA 分片
 #   data/**/*.csv / *.xlsx           原始数据
-#   data/**/*.db                     OCR 成果库
+#   data/**/*.db                     OCR 成果库（小库，<2 MB）
+#   例外：data/china-ocr/*.db 是用户 OCR 成果，必须提交

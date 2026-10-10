@@ -40,36 +40,45 @@ say "校验 USDA 原始数据完整性"
 
 # ---------------------------------------------------------------- 2. 导入
 say "导入 USDA（2719 万行，约 20 分钟）"
-python3 scripts/build_db.py
+python3 scripts/import/build_db.py
 
 say "导入中国食物成分表 + DRIs 2023"
-python3 scripts/build_cn.py
+python3 scripts/import/build_cn.py
 
 say "导入中国食物 GI 附录"
-python3 scripts/build_gi.py
+python3 scripts/import/build_gi.py
 
 say "导入国际库（法 / 英 / 日 / 西非）"
-python3 scripts/build_intl.py
+python3 scripts/import/build_intl.py
 
 say "导入东南亚（印尼 / 东盟）"
-python3 scripts/build_sea.py
+python3 scripts/import/build_sea.py
 
-# ---------------------------------------------------------------- 3. 归一化
+# ---------------------------------------------------------------- 3. 中国两版合并
+# 两版同属第6版标准版、互补而非迭代。合并后才能进并排层：
+#   china_food_merged     1,831 条（OCR 1,810 + 早期补缺 21）
+#   china_food_synthetic    39 条（x 后缀代表值估算，隔离，不进并排层）
+#   china_merge_map       1,872 条决策日志
+say "合并中国两版成分表（OCR + 早期整理版）"
+python3 scripts/import/merge_china_ocr.py
+
+# ---------------------------------------------------------------- 4. 归一化
 say "构建并排归一化层"
-python3 scripts/build_norm.py
+python3 scripts/normalize/build_norm.py
 
 say "公制化数值 + 浏览视图"
-python3 scripts/build_norm_values.py
+python3 scripts/normalize/build_norm_values.py
 
-# ---------------------------------------------------------------- 4. 中文化
+# ---------------------------------------------------------------- 5. 中文化
 say "食物名称中文化"
-python3 scripts/translate_names.py
+python3 scripts/translate/translate_names.py
+python3 scripts/translate/fix_asean_names.py
 
-# ---------------------------------------------------------------- 5. 导出
+# ---------------------------------------------------------------- 6. 导出
 say "导出成品"
 python3 tools/export_release.py --db "$DB" --out data/nutrition_data.sql.gz
 
-# ---------------------------------------------------------------- 6. 验证
+# ---------------------------------------------------------------- 7. 验证
 say "验证还原"
 TMPDB=$(mktemp -u /tmp/verify_XXXX.db)
 gunzip -c data/nutrition_data.sql.gz | sqlite3 "$TMPDB"

@@ -14,6 +14,13 @@
   python3 build_db.py [解压目录] [输出db路径]
 默认：解压目录=/workspace/fdc/extract，db=/workspace/fdc/fooddata_central.db
 """
+import os
+import os as _os
+import sys as _sys
+
+# 仓库根目录（本文件位于 <root>/scripts/import/build_db.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
 import sqlite3, csv, os, glob, sys, time
 
 SAMPLE_ROWS = 8000
@@ -149,8 +156,8 @@ def build_views(cur):
 
 
 def main():
-    extract_dir = sys.argv[1] if len(sys.argv) > 1 else "/workspace/fdc/extract"
-    db_path = sys.argv[2] if len(sys.argv) > 2 else "/workspace/fdc/fooddata_central.db"
+    extract_dir = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "extract")
+    db_path = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, "fooddata_central.db")
 
     csvs = sorted(glob.glob(os.path.join(extract_dir, "**", "*.csv"), recursive=True))
     if not csvs:

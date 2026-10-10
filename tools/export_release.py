@@ -21,6 +21,8 @@ KEEP = [
     # 中国
     'china_food_composition', 'china_dri_2023', 'china_food_gi',
     'china_amino_acid', 'china_fatty_acid', 'china_sample_desc', 'china_food_ocr',
+    # 中国两版合并结果（并排层 CN 的真实数据源）+ 决策日志
+    'china_food_merged', 'china_food_synthetic', 'china_merge_map',
     # 国际
     'ciqual_food', 'uk_cofid_food', 'jp_mext_food', 'jp_mext_amino_food',
     'fao_wafct_food', 'id_tkpi_food', 'asean_fcd_2014',
@@ -40,7 +42,7 @@ def dump(con, tables, out_path, gzipped=True):
         f.write("-- 营养数据整合库 · 数据导出\n")
         f.write(f"-- 生成时间: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write("-- 还原: sqlite3 nutrition.db < nutrition_data.sql\n")
-        f.write("-- 内容: 并排归一化层 + 8 来源核心表（不含 USDA 原始镜像，可从官网重下）\n\n")
+        f.write("-- 内容: 并排归一化层 + 8 来源核心表 + 中国两版合并表（不含 USDA 原始镜像，可从官网重下）\n\n")
         f.write("PRAGMA foreign_keys=OFF;\nBEGIN;\n")
 
         for n in tables:
@@ -91,12 +93,16 @@ def main():
     if not os.path.exists(a.db):
         raise SystemExit(f"找不到数据库 {a.db}")
 
-    out = a.out[:-3] if (not a.plain and a.out.endswith('.gz')) else a.out
+    # 曾经在这里做过 `out = a.out[:-3]` 来剥掉 .gz 后缀——那是个真 bug：
+    # 剥掉后 gzipped 判断必然为 False，于是 --out foo.gz 实际写出未压缩的
+    # foo.sql（103 MB），而仓库里那个 foo.gz 就永远停在旧内容，表面看
+    # 「导出成功」实则交付的是陈旧文件。压缩与否只看 --plain 开关。
+    out = a.out
     os.makedirs(os.path.dirname(out) or '.', exist_ok=True)
 
     print(f"导出 {a.db} -> {out}\n")
     con = sqlite3.connect(a.db)
-    total, dt = dump(con, KEEP, out, gzipped=out.endswith('.gz'))
+    total, dt = dump(con, KEEP, out, gzipped=not a.plain)
     con.close()
 
     sz = os.path.getsize(out)

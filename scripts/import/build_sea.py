@@ -8,11 +8,18 @@
   2. ASEAN FCD 2014        -> 表 asean_fcd_2014      （565 条，Mahidol PDF 解析）
      （马来西亚/菲律宾/泰国/越南/印尼/新加坡 六国汇总）
 """
+import os
+import os as _os
+import sys as _sys
+
+# 仓库根目录（本文件位于 <root>/scripts/import/build_sea.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
 import sqlite3, os, re
 import pandas as pd
 
-DB = "/workspace/fdc/nutrition.db"
-SEA = "/workspace/fdc/intl_sea"
+DB = _os.environ.get("FDC_DB", _os.path.join(ROOT, "nutrition.db"))
+SEA = os.path.join(ROOT, "intl_sea")
 
 # ASEAN FCD 的 INFOODS 列 → 规范化名
 ASEAN_COLS = ["DEN", "ENERC", "WATER", "PROCNT", "FAT", "CHOAVLDF", "FIBTG", "ASH",

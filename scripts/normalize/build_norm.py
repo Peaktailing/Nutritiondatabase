@@ -19,9 +19,15 @@
 import sqlite3
 import re
 import os
+import os as _os
+import sys as _sys
 
-DB = "/workspace/fdc/nutrition.db"
-SEA = "/workspace/fdc/intl_sea"
+# 仓库根目录（本文件位于 <root>/scripts/normalize/build_norm.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
+
+DB = _os.environ.get("FDC_DB", _os.path.join(ROOT, "nutrition.db"))
+SEA = os.path.join(ROOT, "intl_sea")
 
 # ---------------------------------------------------------------- 公制换算
 # 质量单位 → 以 g 为基准
@@ -89,17 +95,22 @@ CANON_CAT = [
 
 # 各库分类关键词 → 统一分段（关键词小写匹配）
 CAT_RULES = {
+    # CN 有两套分类词表（同一版书、整理路径不同）：
+    #   早期整理版 细分三级：「畜肉类及其制品-猪」「蔬菜类及其制品-茄果瓜菜类」
+    #   OCR 抽取版 粗分二级：「畜禽肉及制品」「蔬菜类」「谷薯类」
+    # 两套都必须能命中，否则合并后 1,831 条里会有一批掉进 other。
     "CN": [
         ("dairy_egg",  ["乳类", "蛋类"]),
-        ("meat",       ["畜肉", "禽肉", "羊肉", "猪肉", "牛肉", "兔肉", "马肉", "驴肉", "禽肉"]),
+        ("meat",       ["畜禽肉", "畜肉", "禽肉", "羊肉", "猪肉", "牛肉",
+                        "兔肉", "马肉", "驴肉"]),
         ("fish",       ["鱼虾", "鱼、虾", "蟹贝", "贝类"]),
         ("vegetable",  ["蔬菜", "菌藻", "野葱", "水生蔬菜"]),
         ("fruit",      ["水果"]),
-        ("grain",      ["谷类", "薯类"]),
+        ("grain",      ["谷薯", "谷类", "薯类"]),
         ("legume",     ["干豆", "鲜豆", "豆类"]),
         ("nut_seed",   ["坚果", "种子", "瓜子"]),
-        ("oil_fat",    ["植物油", "动物油脂"]),
-        ("snack",      ["其他类"]),
+        ("oil_fat",    ["植物油", "动物油脂", "油脂"]),
+        ("snack",      ["其他类", "药食两用", "其他("]),
     ],
     "UK": [],   # 特殊：group 是纯字母码，走 UK_GROUP_MAP
     # 印尼 TKPI：原始表无分类字段，全部按名称判定（印尼语）
@@ -445,9 +456,18 @@ def main():
     cur.execute("PRAGMA cache_size=-200000")
 
     # ---------------- 清理旧版
+    # 必须先查 sqlite_master 判类型：SQLite 的 `DROP VIEW IF EXISTS x` 在 x
+    # 实际是 TABLE 时会直接抛 "use DROP TABLE to delete table"，不会像
+    # `DROP TABLE IF EXISTS` 那样兼容 VIEW。norm_value 早期是视图、后改为
+    # 实表，所以这里显式分流。
     for t in ("norm_value", "norm_food", "norm_nutrient", "v_source_by_cat"):
-        cur.execute(f"DROP VIEW IF EXISTS {t}")
-        cur.execute(f"DROP TABLE IF EXISTS {t}")
+        typ = cur.execute(
+            "SELECT type FROM sqlite_master WHERE name=?", (t,)).fetchone()
+        if typ:
+            cur.execute(f"DROP {typ[0].upper()} IF EXISTS {t}")
+        else:
+            cur.execute(f"DROP VIEW IF EXISTS {t}")
+            cur.execute(f"DROP TABLE IF EXISTS {t}")
 
     # ---------------- 1. 营养素主数据
     cur.execute("""
@@ -540,13 +560,18 @@ def main():
 
     rows = []
 
-    # --- 中国 FCT
+    # --- 中国 FCT（两版合并表，见 scripts/import/merge_china_ocr.py）
+    # 1,831 条 = OCR 抽取 1,810 + 早期整理版补缺 21。
+    # 早期整理版独有的 39 条「代表值估算」不进并排层（隔离在
+    # china_food_synthetic），它们是整理时合成的估算值，不是原书条目。
     for code, name, en, cat, water, kcal, pro, fat, cho in cur.execute("""
-        select foodCode, foodName, englishName, category, water, energyKCal, protein, fat, CHO
-        from china_food_composition"""):
+        select food_code, food_name, english_name, category, water_g,
+               energy_kcal, protein_g, fat_g, carb_g
+        from china_food_merged"""):
         st, basis = cn_state(name, water)
         rows.append(("CN", code, name, en,
-                     canon_cat("CN", cat), cat, st, basis, kcal, pro, fat, cho, None))
+                     canon_cat("CN", cat), cat, st, basis, kcal, pro, fat, cho,
+                     None))
 
     # --- 英国 CoFID
     # 注意：CoFID 表是「每食物 × 每 sheet 一行」，34,644 行但仅 2,886 个唯一
@@ -645,8 +670,10 @@ def main():
         (source, source_id, name_local, name_en, canon_cat, cat_raw, state,
          state_basis, kcal, protein, fat, carb, note)
         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""", rows)
-    cur.execute("COMMIT")
-    n_food = cur.rowcount
+    # 注意：不能在 COMMIT 之后读 cur.rowcount —— COMMIT 会把 rowcount 重置为
+    # 0（曾经因此打印出「norm_food: -1 条」，真实值 27,112）。改用
+    # total_changes 差值，这个计数器不受 COMMIT 影响。
+    n_food = cur.execute("SELECT count(*) FROM norm_food").fetchone()[0]
     print(f"norm_food: {n_food:,} 条并排食物条目")
 
     # 插入完成后再建索引（快得多）

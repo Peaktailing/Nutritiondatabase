@@ -13,9 +13,15 @@ import json
 import re
 import sqlite3
 import os
+import os as _os
+import sys as _sys
 
-DB = "/workspace/fdc/nutrition.db"
-GI_JSON = "/workspace/fdc/china/glycemic_index_of_foods.json"
+# 仓库根目录（本文件位于 <root>/scripts/import/build_gi.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
+
+DB = _os.environ.get("FDC_DB", _os.path.join(ROOT, "nutrition.db"))
+GI_JSON = os.path.join(ROOT, "data", "china", "glycemic_index_of_foods.json")
 
 
 def normalize(name: str) -> str:

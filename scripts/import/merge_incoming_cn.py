@@ -20,9 +20,16 @@
 用法: python3 merge_incoming_cn.py            # 执行合并
       python3 merge_incoming_cn.py --dry-run  # 只预览不入���
 """
+import os
+import os as _os
+import sys as _sys
+
+# 仓库根目录（本文件位于 <root>/scripts/import/merge_incoming_cn.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
 import sqlite3, os, sys
 
-BASE = "/workspace/fdc"
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 IN_DB = os.path.join(BASE, "incoming_cn", "数据库", "中国食物成分表.db")
 DB = os.path.join(BASE, "nutrition.db")
 DRY = "--dry-run" in sys.argv

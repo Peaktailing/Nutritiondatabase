@@ -16,8 +16,14 @@
 import sqlite3
 import re
 import os
+import os as _os
+import sys as _sys
 
-DB = "/workspace/fdc/nutrition.db"
+# 仓库根目录（本文件位于 <root>/scripts/normalize/build_norm_values.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
+
+DB = _os.environ.get("FDC_DB", _os.path.join(ROOT, "nutrition.db"))
 
 # mg -> g 换算（统一到 g 存，显示时再按需要转 mg/μg）
 # 存储策略：质量类一律存 **g**；显示层按 nutrient_master 的 unit 转出。
@@ -105,17 +111,26 @@ def build_norm_value(con, cur):
                 continue
             buf.append((nid, nk, g, disp, du, raw, unit))
 
-    # ---------- 中国 FCT（已是 g/mg/μg，仅需把 mg/μg 记对）
-    # 注意：中国库 vitaminA 列是 μgRAE（视黄醇活性当量），与「质量」同量纲，
-    # 按 μg 入库存的是 μgRAE 数值本身；carotene/retinol 单列另存备查。
-    for sid, water, kcal, pro, fat, cho, fib, ca, p, k, na, mg, fe, zn, se, cu, mn, vc, va, ve, thia, rib, nia, chol in cur.execute("""
-        select foodCode, water, energyKCal, protein, fat, CHO, dietaryFiber, Ca, P, K, Na, Mg,
-               Fe, Zn, Se, Cu, Mn, vitaminC, vitaminA, vitaminETotal, thiamin, riboflavin, niacin,
-               cholesterol
-        from china_food_composition"""):
+    # ---------- 中国 FCT（两版合并表；已是 g/mg/μg，仅需把 mg/μg 记对）
+    # 注意：中国库 vitamin_a_ug 是 μgRAE（视黄醇活性当量），与「质量」同量纲，
+    # 按 μg 入库存的是 μgRAE 数值本身；beta_carotene_ug 单列另存备查。
+    #
+    # saturated_fat 照样入账，但实测两版都没有值（OCR 源 1,810 行该列全空，
+    # 早期整理版也无此列），所以全库 CN 的饱和脂肪一律 NULL——不是 0，
+    # 「未收录」与「含量为零」在营养学上是两回事，不可混同。
+    # 数据来源在 fatty_acid 附录表（972 条），需要时从那里单独取。
+    for (sid, water, kcal, pro, fat, sat, cho, fib, chol, ca, p, k, na, mg,
+         fe, zn, se, cu, mn, vc, va, ve, thia, rib, nia) in cur.execute("""
+        select food_code, water_g, energy_kcal, protein_g, fat_g, fat_sat_g,
+               carb_g, fiber_g, cholesterol_mg, calcium_mg, phosphorus_mg,
+               potassium_mg, sodium_mg, magnesium_mg, iron_mg, zinc_mg,
+               selenium_ug, copper_mg, manganese_mg, vit_c_mg, vit_a_ug,
+               vit_e_mg, thiamin_mg, riboflavin_mg, niacin_mg
+        from china_food_merged"""):
         put("CN", sid, [
             ("water", water, "g"), ("energy", kcal, "kcal"),
             ("protein", pro, "g"), ("fat", fat, "g"),
+            ("saturated_fat", sat, "g"),
             ("carbohydrate", cho, "g"), ("fiber", fib, "g"),
             ("calcium", ca, "mg"), ("phosphorus", p, "mg"), ("potassium", k, "mg"),
             ("sodium", na, "mg"), ("magnesium", mg, "mg"), ("iron", fe, "mg"),

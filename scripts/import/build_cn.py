@@ -17,11 +17,18 @@ DRIs 数据说明（重要）：
   已知版本混淆坑：维生素A 800/700、铁 女性20mg 是 **2013 版** 数值，
   2023 版为 770/660、18mg —— 本文件已按 2023 版修正。
 """
+import os
+import os as _os
+import sys as _sys
+
+# 仓库根目录（本文件位于 <root>/scripts/import/build_cn.py）
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.dirname(
+    _os.path.abspath(__file__))))
 import sqlite3, csv, os, sys
 
-BASE = "/workspace/fdc"
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CN_CSV = os.path.join(BASE, "china", "food_composition_full.csv")
-DB = os.path.join(BASE, "nutrition.db")
+DB = os.environ.get("FDC_DB", os.path.join(BASE, "nutrition.db"))
 DRI_CSV = os.path.join(BASE, "china", "dri_2023.csv")
 
 # ---------------------------------------------------------------- 营养素字典

@@ -12,8 +12,8 @@
 import re, subprocess, csv, sys
 from collections import defaultdict
 
-PDF = "/workspace/fdc/intl_sea/asean_fcd_2014.pdf"
-OUT = "/workspace/fdc/intl_sea/asean_fcd_2014.csv"
+PDF = os.path.join(ROOT, "intl_sea", "asean_fcd_2014.pdf")
+OUT = os.path.join(ROOT, "intl_sea", "asean_fcd_2014.csv")
 
 TAGS = ["DEN", "ENERC", "WATER", "PROCNT", "FAT", "CHOAVLDF", "FIBTG", "ASH",
         "CA", "P", "NA", "K", "FE", "CU", "ZN",
