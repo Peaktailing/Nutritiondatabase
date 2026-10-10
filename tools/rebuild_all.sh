@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+# 从仓库原始数据完整重建整合库
+#
+# 用法：
+#   bash tools/rebuild_all.sh
+#
+# 峰值磁盘需求约 9 GB（3.1 GB 原始 CSV + 4.4 GB 中间库 + 460 MB 分片）
+# 完整耗时约 40 分钟，其中 USDA 导入占约 20 分钟
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+DB="${DB:-nutrition.db}"
+USDA_DIR="${USDA_DIR:-usda/FoodData_Central_csv_2026-04-30}"
+
+say() { printf '\n\033[1;36m==> %s\033[0m\n' "$*"; }
+
+# ---------------------------------------------------------------- 0. 依赖
+say "检查依赖"
+python3 -c "import openpyxl" 2>/dev/null || {
+  echo "安装 openpyxl ..."
+  pip3 install --quiet openpyxl
+}
+
+# ---------------------------------------------------------------- 1. USDA
+if [ ! -d "$USDA_DIR" ]; then
+  say "还原 USDA 原始数据（从仓库分片）"
+  mkdir -p usda
+  python3 tools/split_usda.py restore data/usda usda
+else
+  say "USDA 原始数据已存在：$USDA_DIR"
+fi
+
+say "校验 USDA 原始数据完整性"
+( cd "$USDA_DIR" && md5sum -c ../../data/usda/MD5SUMS.txt 2>&1 | tail -3 ) || {
+  echo "⚠️  校验失败，但继续（可能是官方更新了数据版本）"
+}
+
+# ---------------------------------------------------------------- 2. 导入
+say "导入 USDA（2719 万行，约 20 分钟）"
+python3 scripts/build_db.py
+
+say "导入中国食物成分表 + DRIs 2023"
+python3 scripts/build_cn.py
+
+say "导入中国食物 GI 附录"
+python3 scripts/build_gi.py
+
+say "导入国际库（法 / 英 / 日 / 西非）"
+python3 scripts/build_intl.py
+
+say "导入东南亚（印尼 / 东盟）"
+python3 scripts/build_sea.py
+
+# ---------------------------------------------------------------- 3. 归一化
+say "构建并排归一化层"
+python3 scripts/build_norm.py
+
+say "公制化数值 + 浏览视图"
+python3 scripts/build_norm_values.py
+
+# ---------------------------------------------------------------- 4. 中文化
+say "食物名称中文化"
+python3 scripts/translate_names.py
+
+# ---------------------------------------------------------------- 5. 导出
+say "导出成品"
+python3 tools/export_release.py --db "$DB" --out data/nutrition_data.sql.gz
+
+# ---------------------------------------------------------------- 6. 验证
+say "验证还原"
+TMPDB=$(mktemp -u /tmp/verify_XXXX.db)
+gunzip -c data/nutrition_data.sql.gz | sqlite3 "$TMPDB"
+python3 - "$TMPDB" <<'PY'
+import sqlite3, sys
+con = sqlite3.connect(sys.argv[1])
+tot = con.execute("select count(*) from norm_food").fetchone()[0]
+cn = con.execute("select count(*) from norm_food where name_cn is not null").fetchone()[0]
+val = con.execute("select count(*) from norm_value").fetchone()[0]
+print(f"  norm_food    {tot:,}")
+print(f"  norm_value   {val:,}")
+print(f"  中文名覆盖率 {100.0*cn/tot:.1f}%")
+print(f"  quick_check  {con.execute('PRAGMA quick_check').fetchone()[0]}")
+PY
+rm -f "$TMPDB"
+
+say "完成 ✅"
+echo "  成品库:  $DB"
+echo "  可分发:  data/nutrition_data.sql.gz"

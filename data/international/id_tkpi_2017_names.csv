@@ -1,0 +1,1147 @@
+KODE,NAMA_BAHAN
+AP001,Nasi
+AP002,Nasi tim
+AP003,Tapai beras
+AP004,"Tepung beras, mentah"
+AP005,Nasi beras merah
+AP006,"Bihun, mentah"
+AP007,Bihun goreng instan
+AP008,"Bihun Jagung, mentah"
+AP009,Nasi jagung
+AP010,"Jagung muda, rebus"
+AP011,"Jagung kuning, tepung"
+AP012,"Jagung kuning pipil, rebus"
+AP013,Tepung jagung putih
+AP014,Ketupat ketan
+AP015,"Ketan hitam, matang"
+AP016,Tapai ketan hitam
+AP017,"Ketan putih, matang"
+AP018,Tapai ketan putih
+AP019,"Maizena, tepung"
+AP020,"Makaroni, mentah"
+AP021,Mi basah
+AP022,Mi kering
+AP023,Misoa
+AP024,Roti putih
+AP025,Tepung terigu
+AP026,Amparan tatak
+AP027,"Apang kukus, kue"
+AP028,"Apem, kue"
+AP029,Biskuit
+AP030,"Bakpia, kue"
+AP031,Bakwan
+AP032,Bantal
+AP033,Baruasa
+AP034,Batar daan
+AP035,Bika ambon
+AP036,Bingka
+AP037,Bobengka
+AP038,Bolu peca
+AP039,Brem
+AP040,Bubur tinotuan (Manado)
+AP041,Cake tape
+AP042,Cangkuning
+AP043,Dodol bali
+AP044,Dodol galamai
+AP045,Dodol kedondong
+AP046,Dodol manado
+AP047,Emping beras
+AP048,Gemblong
+AP049,Gendar goreng
+AP050,Intip goreng
+AP051,Jagung gerontol
+AP052,Jagung titi
+AP053,Japilus
+AP054,Kakicak
+AP055,Kambose
+AP056,Kapusa
+AP057,Keddo bodong
+AP058,"Kelepon, kue"
+AP059,Kereput
+AP060,Ketoprak
+AP061,Ketupat kandangan
+AP062,Koya
+AP063,Koya mirasa
+AP064,Koyabu
+AP065,Kue ali
+AP066,Kue bangen
+AP067,Kue gelang
+AP068,Kue jahe
+AP069,Kue kelapa
+AP070,Kue koa
+AP071,Kue ku temu
+AP072,Kue lumpur
+AP073,Kue pelita
+AP074,Kue putu cangkir
+AP075,Kue sus
+AP076,Kue thipan
+AP077,Laksa/Putu mayang
+AP078,Lapis legit
+AP079,Lupis ketan
+AP080,Manan samin
+AP081,Martabak india
+AP082,Martabak mesir
+AP083,Masekat
+AP084,Mie aceh rebus
+AP085,Mie ayam
+AP086,Mie bakso
+AP087,Mie celon
+AP088,Mie pangsit basah
+AP089,Nasi gemuk
+AP090,Nasi gurih
+AP091,Nasi minyak
+AP092,Nasi rames
+AP093,Nopia spesial
+AP094,Onde-onde
+AP095,Padamaran
+AP096,Pastel
+AP097,Pulut
+AP098,Pundut nasi
+AP099,Putri hijau
+AP100,Putri selat
+AP101,Putu sopa
+AP102,Renggi goreng
+AP103,Roti boong
+AP104,Roti warna sawo matang
+AP105,Sarimuka
+AP106,Spaghetti
+AP107,Srikaya ketan
+AP108,Sunduk lawang
+AP109,Suwir-suwir
+AP110,Tipa-tipa
+AP111,Wajit camilan
+AP112,Widaran
+AP113,Wingko babat
+AP114,Yangko
+AR001,"Beras giling, mentah"
+AR002,"Beras giling var pelita, mentah"
+AR003,"Beras giling var rojolele, mentah"
+AR004,"Beras hitam, mentah"
+AR005,"Beras jagung kuning, kering, mentah"
+AR006,"Beras jagung putih, kering, mentah"
+AR007,"Beras ketan hitam tumbuk, mentah"
+AR008,"Beras ketan putih tumbuk, mentah"
+AR009,"Beras ladang, mentah"
+AR010,"Beras menir, mentah"
+AR011,Beras parboiled
+AR012,"Beras tumbuk, mentah"
+AR013,"Beras tumbuk merah, mentah"
+AR014,"Cantel, mentah"
+AR015,"Jagung muda, kuning, mentah"
+AR016,"Jagung kuning pipil, kering, mentah"
+AR017,"Jagung pipil var. harapan, kering"
+AR018,"Jagung pipil var. metro, kering"
+AR019,"Jali, mentah"
+AR020,"Jawawut, mentah"
+AR021,"Jampang huma, mentah"
+BP001,"Batatas kelapa, ubi, bakar"
+BP002,"Batatas kelapa, ubi, kukus"
+BP003,"Batatas tali, ubi, rebus"
+BP004,"Belitung, talas, kukus"
+BP005,"Bentul, talas, kukus"
+BP006,"Gadung, ubi, kukus"
+BP007,"Ganyong, rebus"
+BP008,Ketela pohon/singkong kukus
+BP009,"Suweg, talas, kukus"
+BP010,"Talas bogor, kukus"
+BP011,"Ubi jalar, kuning, kukus"
+BP012,Ubi jalar tinta/ kemayung kukus
+BP013,Bagea kelapa asin
+BP014,Bagea kelapa manis
+BP015,Bagea kenari asin
+BP016,Bagea kenari manis
+BP017,Bagea kw 1
+BP018,Bagea kw 2
+BP019,Beras Cerdas
+BP020,Beras ganyong
+BP021,Beras Siger
+BP022,Biji nangka/Biji salak
+BP023,Bubur sagu
+BP024,Cassavastick
+BP025,Ceriping getuk singkong
+BP026,Gatot
+BP027,Geblek
+BP028,Getuk goreng
+BP029,Getuk singkong
+BP030,Gurandil
+BP031,Kabuto
+BP032,Kapurung
+BP033,Kecimpring singkong goreng
+BP034,Keremes
+BP035,Keripik gadung
+BP036,Keripik kentang
+BP037,Keripik singkong
+BP038,Keripik singkong berbumbu
+BP039,Keripik ubi
+BP040,Kerupuk cumi goreng
+BP041,Kerupuk kemplang (ikan) mentah
+BP042,Kerupuk kemplang goreng
+BP043,Kerupuk kemplang panggang
+BP044,Kerupuk mie kuning goreng
+BP045,Kerupuk udang goreng
+BP046,Kue bangket
+BP047,Kue putu singkong
+BP048,Lanting getuk
+BP049,Mi golosor
+BP050,Mie Bendo
+BP051,Mie Sagu
+BP052,Ongol-ongol sagu
+BP053,Oyek
+BP054,Papeda
+BP055,Rasbi (Beras Ubi)
+BP056,Rasi (Beras Singkong)
+BP057,Sagu forno
+BP058,Sagu Lemak (Kue Sagon)
+BP059,Sagu manis
+BP060,Sagu Rendang
+BP061,Sagu sinole
+BP062,Serimping talas kebumen
+BP063,Tapai singkong
+BP064,Tepung Arrowroot
+BP065,Tepung Ganyong
+BP066,Tepung Gaplek
+BP067,"Tepung kentang, kering"
+BP068,Tepung Mocaf
+BP069,Tepung Sente
+BP070,Tepung singkong/ Tapioka
+BP071,Tepung Tales Beneng
+BP072,Tepung Ubi Ungu
+BP073,Tiwul
+BP074,Tiwul Instan
+BP075,Ubi Cilembu
+BP076,Uli batatas
+BR001,"Arrowroot, segar"
+BR002,"Batatas gembili, segar"
+BR003,"Batatas kelapa, ubi, segar"
+BR004,"Belitung, talas, segar"
+BR005,"Bengkuang, segar"
+BR006,"Bentul (Komba), talas, segar"
+BR007,"Gadeng/Gadung, kering"
+BR008,"Gadung, ubi, segar"
+BR009,"Ganyong, segar"
+BR010,"Gembili, ubi, segar"
+BR011,"Hofa/Ubi hutan, segar"
+BR012,"Kaburan, ubi, segar"
+BR013,"Kentang, segar"
+BR014,"Kentang hitam, segar"
+BR015,"Keribang, ubi, segar"
+BR016,"Ketela pohon/ singkong, segar"
+BR017,Lepok/Ubi rumput
+BR018,"Sagu aren, kering"
+BR019,"Sagu aren, segar"
+BR020,Sagu kasbi segar
+BR021,Sagu lempeng
+BR022,"Sagu singkong, kering"
+BR023,"Sente, talas, segar"
+BR024,"Suweg, talas, segar"
+BR025,"Talas bogor, segar"
+BR026,"Talas pontianak, segar"
+BR027,"Talas viqueque, segar"
+BR028,"Ubi jalar, kuning, segar"
+BR029,"Ubi jalar manis, segar"
+BR030,"Ubi jalar merah, segar"
+BR031,"Ubi jalar putih, segar"
+BR032,Ubi jalar tinta/ kemayung
+BR033,"Umbi Uwi, segar"
+CP001,"Kacang belimbing (kecipir), rebus"
+CP002,"Kacang bogor, goreng"
+CP003,"Kacang bogor, rebus"
+CP004,"Kacang gude, rebus"
+CP005,"Kacang hijau, rebus"
+CP006,"Kacang kedelai, goreng"
+CP007,"Kacang kedelai, rebus"
+CP008,"Kacang merah kering, rebus"
+CP009,"Kacang merah segar, rebus"
+CP010,"Kacang mete/biji jambu monyet, goreng"
+CP011,Kacang tanah rebus dg kulit
+CP012,"Kacang tanah, goreng"
+CP013,"Kacang tanah, rebus"
+CP014,"Kacang tolo / tunggak, rebus"
+CP015,Ampas kacang hijau
+CP016,"Ampas tahu, mentah"
+CP017,Ampas tahu kukus
+CP018,"Ampas tahu, kering"
+CP019,Pepes oncom ampas tahu
+CP020,Bungkil biji karet
+CP021,Bungkil kacang tanah
+CP022,Bungkil kelapa
+CP023,Dodol banjarmasin
+CP024,Emping (kerupuk melinjo)
+CP025,Emping komak
+CP026,Enting-enting gepuk hello kity
+CP027,Enting-enting gepuk kacang tanah
+CP028,Enting-enting wijen
+CP029,Geplak
+CP030,Geplak jahe
+CP031,Kacang atom
+CP032,Kacang goyang
+CP033,Kacang negara
+CP034,Kacang sukro
+CP035,Kacang tanah sari
+CP036,Keju kacang tanah (peanut butter)
+CP037,Kembang tahu
+CP038,Kembang tahu rebus
+CP039,Keripik oncom
+CP040,Keripik tempe
+CP041,Keripik tempe abadi besar
+CP042,Keripik tempe abadi murni
+CP043,Keripik tempe abadi sedang
+CP044,Keripik tempe abadi telur
+CP045,Keripik tempe abadi prima
+CP046,Kwaci
+CP047,Melinjo emping tebal goreng manis
+CP048,"Melinjo emping tebal, goreng asin"
+CP049,Melinjo emping tipis goreng
+CP050,Moon tahu
+CP051,Oncom
+CP052,Oncom ampas kacang hijau
+CP053,Oncom kacang hijau + singkong
+CP054,Oncom kacang tanah pepes
+CP055,Rempeyek kacang tanah
+CP056,Rempeyek kacang tolo
+CP057,Rempeyek kacang uci
+CP058,Sayur lebui
+CP059,"Saridele, bubuk"
+CP060,Susu kedelai
+CP061,"Tahu, mentah"
+CP062,Tahu goreng
+CP063,Tahu telur
+CP064,Takwa
+CP065,Tauco
+CP066,"Tauco cap beruang, cake"
+CP067,"Tauco cap DAS, cake"
+CP068,Tauco cap meong
+CP069,Tauji cap singa
+CP070,Tempe bongkrek
+CP071,Tempe gembus P3G
+CP072,Tempe gembus yogya
+CP073,Tempe kacang babi
+CP074,Tempe kecipir (kacang belimbing)
+CP075,Tempe kedelai + jagung
+CP076,"Tempe kedelai murni, goreng"
+CP077,"Tempe kedelai murni, mentah"
+CP078,Tempe koro benguk
+CP079,Tempe lamtoro
+CP080,Tempe lamtoro var. gung dengan kulit
+CP081,Tempe lamtoro var. gung tanpa kulit
+CP082,Tempe pasar
+CP083,Tempe pasar goreng
+CP084,Tepung hunkwe (pati kacang ijo)
+CP085,Tepung Jalejo
+CP086,Tepung kacang kedelai
+CR001,"Kacang arab, kering"
+CR002,"Kacang babi, kering"
+CR003,"Kacang belimbing (kecipir), kering"
+CR004,"Kacang beracun, segar"
+CR005,"Kacang bogor, kering"
+CR006,"Kacang bogor, segar"
+CR007,"Kacang endel, biji, kering"
+CR008,"Kacang ercis, segar"
+CR009,"Kacang galing, segar"
+CR010,"Kacang gude, biji, kering"
+CR011,"Kacang gude, biji, segar"
+CR012,"Kacang hijau var. bakti, kering"
+CR013,"Kacang hijau var. siwalik, kering"
+CR014,"Kacang hijau, kering"
+CR015,"Kacang hitam, kering"
+CR016,"Kacang kapri, segar"
+CR017,"Kacang kedelai, kering"
+CR018,"Kacang kedelai, segar"
+CR019,"Kacang kincai, kering"
+CR020,"Kacang komak, segar"
+CR021,"Kacang kuning, kering"
+CR022,"Kacang lebui /iris, kering"
+CR023,"Kacang mentega, kering"
+CR024,"Kacang merah/banda, kering"
+CR025,"Kacang merah tua, kering"
+CR026,"Kacang merah, kering"
+CR027,"Kacang merah, segar"
+CR028,"Kacang mete/biji jambu monyet, segar"
+CR029,"Kacang panjang, biji, kering"
+CR030,Kacang tanah sangan
+CR031,Kacang tanah sangan tanpa selaput
+CR032,"Kacang tanah, kering"
+CR033,"Kacang tolo / tunggak, kering"
+CR034,"Kacang tunis, kering"
+CR035,"Kacang uci, kering"
+CR036,"Kacang urei, kering"
+CR037,"Kenari banda, kering"
+CR038,"Kenari, kering"
+CR039,"Komak polong, segar"
+CR040,"Koro andong, kering"
+CR041,"Koro benguk, biji, kering"
+CR042,"Koro kerupuk, biji, segar"
+CR043,"Koro loke, biji, segar"
+CR044,"Koro roay, kering"
+CR045,"Koro wedus, biji, kering"
+CR046,"Lamtoro biji, muda, segar"
+CR047,"Lamtoro biji, tua, segar"
+CR048,Lamtoro var. gung tanpa kulit
+CR049,Lamtoro var. lokal dengan kulit
+CR050,"Nangka, biji, segar"
+CR051,"Saga merah terkupas, mentah"
+CR052,"Wijen, mentah"
+DP001,"Bayam, kukus"
+DP002,"Bayam, rebus"
+DP003,"Buncis, rebus"
+DP004,"Daun kacang panjang, kukus"
+DP005,"Daun katuk, rebus"
+DP006,"Daun kelor, rebus"
+DP007,"Daun mengkudu, kukus"
+DP008,"Daun singkong, rebus"
+DP009,"Daun talas, rebus"
+DP010,"Daun ubi merah, kukus"
+DP011,"Kacang panjang, kukus"
+DP012,"Kacang panjang, rebus"
+DP013,"Kangkung, kukus"
+DP014,"Kangkung, rebus"
+DP015,"Paria putih, kukus"
+DP016,"Selada, rebus"
+DP017,"Taoge, goreng"
+DP018,"Taoge, seduh"
+DP019,"Terung panjang, kukus"
+DP020,"Wortel, rebus"
+DP021,"Wortel, kukus"
+DP022,"Asinan Bogor, sayuran"
+DP023,"Anyang, sayur"
+DP024,"Ares, sayur"
+DP025,Arwan sirsir
+DP026,Beberuk
+DP027,Botok lamtoro
+DP028,Buntil daun talas
+DP029,Cammetutu
+DP030,"Cap cai, sayur"
+DP031,Gado-gado
+DP032,"Gudeg, sayur"
+DP033,Gulai pakis
+DP034,Gulai pliek
+DP035,Kadada katembe
+DP036,"Kaparende, sayur"
+DP037,"Karedok, sayur"
+DP038,Keripik bayam
+DP039,Kotiu hinela tawang nggole
+DP040,Lema/Rebung asam
+DP041,Lilin bungkus gedi
+DP042,Olah-olah
+DP043,Paku hinela wulelenggapaya
+DP044,Pelecing kangkung
+DP045,Purundawa
+DP046,Rujak cingur
+DP047,Sayur asem
+DP048,Sayur bunga pepaya
+DP049,Sayur garu
+DP050,Sayur kohu-kohu
+DP051,Sayur lilin-terubuk
+DP052,Sayur ndusuk
+DP053,Sayur sop
+DP054,Sayur umbut kelapa
+DP055,Sayur umbut rotan
+DP056,Shabu-shabu
+DP057,Semur jengkol
+DP058,Tinira ninahu nggaluku
+DP059,Tumis bayam bersantan
+DP060,Waluh balamak
+DP061,Woku ubi
+DR001,"Akar tonjong, segar"
+DR002,"Ale,toge, segar"
+DR003,"Andaliman, segar"
+DR004,"Andewi, segar"
+DR005,"Bakung, segar"
+DR006,"Baligo, segar"
+DR007,"Bawang bombay, segar"
+DR008,"Bayam, segar"
+DR009,"Bayam merah, segar"
+DR010,"Bit, segar"
+DR011,Buah kelor
+DR012,Buah merah
+DR013,"Buncis, segar"
+DR014,"Bunga pepaya, segar"
+DR015,"Bunga turi, segar"
+DR016,"Caisin, segar"
+DR017,"Daun bangun-bangun, segar"
+DR018,"Daun bawang merah, segar"
+DR019,"Daun bebuas, segar"
+DR020,"Daun belem, segar"
+DR021,"Daun bluntas, segar"
+DR022,"Daun gandaria, segar"
+DR023,"Daun gedi besar, segar"
+DR024,"Daun gedi kecil, segar"
+DR025,"Daun gelang, segar"
+DR026,"Daun gunda bali, segar"
+DR027,"Daun gunda serang, segar"
+DR028,"Daun jambu mete muda, segar"
+DR029,"Daun jampang, segar"
+DR030,"Daun jawaw seluang, segar"
+DR031,"Daun jonghe, segar"
+DR032,"Daun kacang ma, segar"
+DR033,"Daun kacang panjang, segar"
+DR034,"Daun kasbi/singkong karet, segar"
+DR035,"Daun katuk, segar"
+DR036,"Daun kecipir, segar"
+DR037,"Daun kedondong, segar"
+DR038,"Daun kelor, segar"
+DR039,"Daun kemangi, segar"
+DR040,"Daun kenikir, segar"
+DR041,"Daun kesum, segar"
+DR042,"Daun kol sawi, segar"
+DR043,"Daun koro, segar"
+DR044,"Daun kubis, segar"
+DR045,"Daun kumak, segar"
+DR046,"Daun labu siam, segar"
+DR047,"Daun labu waluh/kuning, segar"
+DR048,"Daun lamtoro, segar"
+DR049,"Daun leilem, segar"
+DR050,"Daun leunca, segar"
+DR051,"Daun lobak, segar"
+DR052,"Daun lompong talas, segar"
+DR053,"Daun mangkokan, segar"
+DR054,"Daun matel ambon, segar"
+DR055,"Daun melinjo, segar"
+DR056,"Daun mengkudu, segar"
+DR057,"Daun ndusuk, segar"
+DR058,"Daun oyong, segar"
+DR059,"Daun pakis, segar"
+DR060,"Daun pakis longgiho, segar"
+DR061,"Daun pakis wambateu, segar"
+DR062,"Daun paku, segar"
+DR063,"Daun pangi,segar"
+DR064,"Daun pare, segar"
+DR065,"Daun pepaya, segar"
+DR066,"Daun pohpohan, segar"
+DR067,"Daun selasih, segar"
+DR068,"Daun semanggi, segar"
+DR069,"Daun simpur, segar"
+DR070,"Daun singkil, segar"
+DR071,"Daun singkong, segar"
+DR072,"Daun singkong ambon, segar"
+DR073,"Daun singkong ampenan, segar"
+DR074,"Daun singkong kopang, segar"
+DR075,"Daun sintrong, segar"
+DR076,"Daun talas, segar"
+DR077,"Daun tespong, segar"
+DR078,"Daun ubi kuning, segar"
+DR079,"Daun ubi merah, segar"
+DR080,"Daun ubi putih, segar"
+DR081,"Daun ubi tinta, segar"
+DR082,"Eceng, segar"
+DR083,"Gambas (oyong), segar"
+DR084,"Genjer, segar"
+DR085,"Jagung muda / semi, segar"
+DR086,Jamur encik
+DR087,"Jamur kuping, kering"
+DR088,"Jamur kuping, segar"
+DR089,"Jamur merang, segar"
+DR090,"Jamur tiram, segar"
+DR091,Jamur sagu
+DR092,"Jantung pisang, segar"
+DR093,"Jengkol, segar"
+DR094,"Jotang, segar"
+DR095,"Kabau, segar"
+DR096,"Kacang mekah, polong, segar"
+DR097,"Kacang panjang, segar"
+DR098,Kacang ranti polong
+DR099,"Kalakai, segar"
+DR100,"Kangkung, segar"
+DR101,Kangkung tondano
+DR102,"Kapri muda, segar"
+DR103,Karawila
+DR104,"Kecipir muda, segar"
+DR105,"Kecombrang, segar"
+DR106,"Kelawi,kluwih, segar"
+DR107,"Kembang turi, segar"
+DR108,"Kerokot, segar"
+DR109,"Ketimun, segar"
+DR110,"Ketimun krai, segar"
+DR111,"Ketimun madura, segar"
+DR112,"Komak, segar"
+DR113,Kembang Kol
+DR114,"Kol merah, kol putih"
+DR115,"Koro kerupuk, polong"
+DR116,"Koro wedus, polong"
+DR117,"Kucai, segar"
+DR118,"Kucai muda (Lokio), segar"
+DR119,Kulit melinjo
+DR120,"Kundur, segar"
+DR121,"Labu air, segar"
+DR122,"Labu kuning, segar"
+DR123,"Labu siam, segar"
+DR124,"Labu waluh, segar"
+DR125,"Lantar, segar"
+DR126,"Lobak, segar"
+DR127,"Lumai/Leunca, segar"
+DR128,"Melinjo, segar"
+DR129,Mostarda metan - sawi hijau
+DR130,"Nangka muda, segar"
+DR131,"Paria putih, segar"
+DR132,"Pepare ular, segar"
+DR133,"Pepaya muda, segar"
+DR134,"Petai, segar"
+DR135,"Peterseli, segar"
+DR136,"Pucuk lumai/daun leunca, segar"
+DR137,"Putri malu, segar"
+DR138,"Rebung, segar"
+DR139,"Rimbang, segar"
+DR140,Rumput laut
+DR141,"Sawi, segar"
+DR142,"Sawi putih / pecai, segar"
+DR143,"Sawi taiwan, segar"
+DR144,"Sawi tanah, segar"
+DR145,"Selada, segar"
+DR146,"Selada air, segar"
+DR147,"Seledri, segar"
+DR148,"Taoge, segar"
+DR149,"Taoge kacang kedelai, segar"
+DR150,"Taoge kacang tunggak, segar"
+DR151,"Tebu terubuk (lilin), segar"
+DR152,"Tekokak, segar"
+DR153,"Tekokak, kering"
+DR154,"Terong, segar"
+DR155,"Terong asam, segar"
+DR156,"Terung belanda, segar"
+DR157,"Terung bengkulu, segar"
+DR158,"Terong hintalo, segar"
+DR159,Terung panjang
+DR160,"Tomat, air (sari), segar"
+DR161,"Tomat merah, segar"
+DR162,"Tomat muda, segar"
+DR163,"Uceng/ bunga melinjo, segar"
+DR164,"Umbut kelapa, segar"
+DR165,Umbut rotan
+DR166,"Wortel, segar"
+EP001,Barongko
+EP002,Dodol nanas
+EP003,Getuk pisang
+EP004,Keripik lampung
+EP005,Ledre pisang
+EP006,Lempog durian
+EP007,Loka anjoro
+EP008,Rica-rica taipa
+EP009,Rujak aceh
+EP010,Sale kesemek
+EP011,Sale pisang siam
+EP012,"Sale pisang, cilacap"
+EP013,Sanggara belanda
+EP014,Tepung Pisang
+EP015,Tepung Sukun
+ER001,"Alpukat, segar"
+ER002,"Anggur hutan, segar"
+ER003,"Apel malang, segar"
+ER004,"Apel, segar"
+ER005,"Arbai, segar"
+ER006,"Belimbing, segar"
+ER007,"Biwah, segar"
+ER008,"Buah atung, segar"
+ER009,"Buah kelenting, segar"
+ER010,"Buah kom, segar"
+ER011,"Buah mentega (Bisbul), segar"
+ER012,"Buah Naga Merah, segar"
+ER013,"Buah Naga Putih, segar"
+ER014,"Buah negri, segar"
+ER015,"Buah nona, segar"
+ER016,"Buah rotan, segar"
+ER017,"Buah rukam, segar"
+ER018,"Buah ruruhi, segar"
+ER019,"Buah tuppa, segar"
+ER020,"Carica papaya, segar"
+ER021,"Cempedak, segar"
+ER022,"Duku, segar"
+ER023,"Durian, segar"
+ER024,"Duwet, segar"
+ER025,"Embacang, segar"
+ER026,"Encung asam, segar"
+ER027,"Erbis, segar"
+ER028,Gandaria masak
+ER029,"Gatep, segar"
+ER030,"Jambu air, segar"
+ER031,Jambu biji
+ER032,Jambu biji putih tidak berbiji
+ER033,"Jambu bol, segar"
+ER034,"Jambu monyet, segar"
+ER035,"Jeruk bali, segar"
+ER036,"Jeruk banjar, segar"
+ER037,Jeruk garut-keprok
+ER038,"Jeruk Kalamansi, segar"
+ER039,"Jeruk manis, segar"
+ER040,"Jeruk nipis, segar"
+ER041,"Jeruk ragi, segar"
+ER042,"Kawista, segar"
+ER043,"Kedondong masak, segar"
+ER044,"Kedondong, segar"
+ER045,"Kelapa hutan, kering"
+ER046,"Kelapa muda, daging, segar"
+ER047,"Kemang, segar"
+ER048,"Kesemek, segar"
+ER049,"Kokosan, segar"
+ER050,"Kranji, segar"
+ER051,"Langsat, segar"
+ER052,"Lemon, segar"
+ER053,"Lontar, segar"
+ER054,"Mangga, segar"
+ER055,"Mangga benggala, segar"
+ER056,"Mangga gedung, segar"
+ER057,"Mangga golek, segar"
+ER058,"Mangga harumanis, segar"
+ER059,"Mangga indramayu, segar"
+ER060,"Mangga kopek, segar"
+ER061,"Mangga kwini, segar"
+ER062,"Mangga manalagi, segar"
+ER063,"Mangga muda, segar"
+ER064,"Manggis, segar"
+ER065,"Markisa, segar"
+ER066,"Matoa, segar"
+ER067,"Melon, segar"
+ER068,"Menteng, segar"
+ER069,"Nanas palembang, segar"
+ER070,"Nanas, segar"
+ER071,"Nangka masak pohon, segar"
+ER072,"Pala, daging, segar"
+ER073,"Pepaya, segar"
+ER074,"Pisang ambon, segar"
+ER075,"Pisang angleng (pisang ampyang), segar"
+ER076,"Pisang ayam, segar"
+ER077,"Pisang gapi, segar"
+ER078,"Pisang goroho, segar"
+ER079,"Pisang hijau, segar"
+ER080,"Pisang kayu, segar"
+ER081,"Pisang kepok, segar"
+ER082,"Pisang ketip, segar"
+ER083,"Pisang kidang, segar"
+ER084,"Pisang lampung, segar"
+ER085,"Pisang mas bali ampenan, segar"
+ER086,"Pisang mas bali kopang, segar"
+ER087,"Pisang mas, segar"
+ER088,"Pisang raja sereh, segar"
+ER089,"Pisang raja, segar"
+ER090,"Pisang rotan, segar"
+ER091,"Pisang talas, segar"
+ER092,Pisang tujuh bulan
+ER093,"Pisang ua, segar"
+ER094,"Pisang uli, segar"
+ER095,"Purut, segar"
+ER096,"Rambutan binjai, segar"
+ER097,"Rambutan, segar"
+ER098,"Salak bali, segar"
+ER099,"Salak medan, segar"
+ER100,"Salak pondoh, segar"
+ER101,"Salak, segar"
+ER102,"Sawo duren, segar"
+ER103,"Sawo kecik, segar"
+ER104,"Sawo Manila, segar"
+ER105,"Semangka, segar"
+ER106,"Sirsak, segar"
+ER107,"Sowa, segar"
+ER108,"Srikaya, segar"
+ER109,"Sukun muda, segar"
+ER110,"Sukun tua, segar"
+ER111,"Vigus, segar"
+ER112,"Wani, segar"
+FP001,"Ayam, ampela, goreng"
+FP002,"Ayam, usus, goreng"
+FP003,"Bebek, daging, goreng"
+FP004,"Buaya, daging, dendeng, mentah"
+FP005,Ham
+FP006,"Itik alabio, daging, dendeng, mentah"
+FP007,Kerupuk urat
+FP008,"Menjangan, daging, dendeng, mentah"
+FP009,"Punai, daging, goreng"
+FP010,"Rusa, daging, dendeng, mentah"
+FP011,"Sapi, abon"
+FP012,"Sapi, abon, asli"
+FP013,"Sapi, daging, asap"
+FP014,"Sapi, daging, dendeng, mentah"
+FP015,"Sapi, daging, kornet"
+FP016,"Sapi, daging, sosis (Worst)"
+FP017,"Sapi, hati, sosis (liverworst)"
+FP018,"Sapi, paru, dendeng, mentah"
+FP019,"Sapi, paru, goreng"
+FP020,"Ulat sagu, panggang"
+FP021,"Ayam goreng church texas, dada"
+FP022,"Ayam goreng church,texas paha"
+FP023,"Ayam goreng church texas, sayap"
+FP024,"Ayam goreng kalasan, paha"
+FP025,"Ayam goreng kentucky, dada"
+FP026,"Ayam goreng Kentucky, paha"
+FP027,"Ayam goreng Kentucky,sayap"
+FP028,Ayam goreng mbok berek dada
+FP029,"Ayam goreng pasundan, dada"
+FP030,"Ayam goreng pasundan, paha"
+FP031,"Ayam goreng pioneer, dada"
+FP032,"Ayam goreng sukabumi, dada"
+FP033,"Ayam goreng sukabumi, paha"
+FP034,"Ayam taliwang, masakan"
+FP035,"Babi hutan masak rica, masakan"
+FP036,Beef burger
+FP037,"Beef teriyaki, masakan"
+FP038,"Beef yakiniku, masakan"
+FP039,Brongkos
+FP040,"Bulgogi, masakan"
+FP041,"Chicken teriyaki, masakan"
+FP042,"Chikiniku, masakan"
+FP043,"Coto mangkasara, kuda, masakan"
+FP044,"Coto mangkasara, sapi, masakan"
+FP045,"Djibokum, masakan"
+FP046,"Empal (daging) Goreng, masakan"
+FP047,Gulai kambing
+FP048,"Jangang bintatoeng, masakan"
+FP049,"Kalio ayam, masakan"
+FP050,"Kalio jeroan, masakan"
+FP051,"Kalio kikil (tunjang), masakan"
+FP052,"Kalio otak, masakan"
+FP053,"Lawar babi, masakan"
+FP054,"Lawar penyu, masakan"
+FP055,"Lawara jangang, masakan"
+FP056,"Naan maran sapi, masakan"
+FP057,"Nasu likku, masakan"
+FP058,"Oramu ninahu ndawa olaho, masakan"
+FP059,"Paniki masak santan, masakan"
+FP060,"Pelolah manuk, masakan"
+FP061,"Rawon, masakan"
+FP062,"Rendang sapi, masakan"
+FP063,"RW, anjing, masakan"
+FP064,"Sate, penyu, masakan"
+FP065,"Sate pusut, masakan"
+FP066,"Penyu, serapah, masakan"
+FP067,"Sie reuboh, masakan"
+FP068,"Sop buntut, masakan"
+FP069,"Sop daging sapi, masakan"
+FP070,"Sop kaki sapi, masakan"
+FP071,"Sop kambing, masakan"
+FP072,"Sop konro, masakan"
+FP073,"Sop saudara, masakan"
+FP074,"Soto bandung, masakan"
+FP075,"Soto banjar, masakan"
+FP076,"Soto betawi, masakan"
+FP077,"Soto jeroan, masakan"
+FP078,"Soto kudus, masakan"
+FP079,"Soto madura, masakan"
+FP080,"Soto padang, masakan"
+FP081,"Soto pekalongan, masakan"
+FP082,"Soto pemalang, masakan"
+FP083,"Soto sukaraja, masakan"
+FP084,"Soto sulung, masakan"
+FP085,"Sukiyaki, masakan"
+FP086,"Tedong pallu basa, masakan"
+FP087,"Tikus rica, masakan"
+FP088,"Tinoransa, masakan"
+FR001,"Anak sapi, daging, gemuk, segar"
+FR002,"Anak sapi, daging, kurus, segar"
+FR003,"Anak sapi, daging, sedang, segar"
+FR004,"Angsa, daging, segar"
+FR005,"Ayam, daging, segar"
+FR006,"Ayam, dideh/darah, segar"
+FR007,"Ayam, hati, segar"
+FR008,"Babi, daging, gemuk,segar"
+FR009,"Babi, daging, kurus, segar"
+FR010,"Babi, ginjal, segar"
+FR011,"Babi, hati, segar"
+FR012,"Bebek (itik), daging, segar"
+FR013,"Bebek alabio, daging, segar"
+FR014,"Belibis, daging, segar"
+FR015,"Burung, sarang, segar"
+FR016,"Domba, daging, gemuk, segar"
+FR017,"Domba, daging, kurus, segar"
+FR018,"Domba, ginjal, segar"
+FR019,"Kambing, daging, segar"
+FR020,"Kelinci, daging, segar"
+FR021,"Kerbau, daging, segar"
+FR022,"Kuda, daging, segar"
+FR023,"Sapi, babat, segar"
+FR024,"Sapi, daging, gemuk, segar"
+FR025,"Sapi, daging, kurus, segar"
+FR026,"Sapi, daging, lemak sedang, segar"
+FR027,"Sapi, daleman, segar"
+FR028,"Sapi, dideh/darah"
+FR029,"Sapi, ginjal, segar"
+FR030,"Sapi, keleponan, segar"
+FR031,"Sapi, liver, segar"
+FR032,"Sapi, otak, segar"
+FR033,"Sapi, usus, segar"
+FR034,Ulat sagu segar
+GP001,"Bekicot, dendeng, mentah"
+GP002,"Belut, goreng"
+GP003,"Cumi-cumi, goreng"
+GP004,"Ikan asin, kering"
+GP005,"Ikan bandeng presto, masakan"
+GP006,Ikan baung bakar
+GP007,Ikan Belida bakar
+GP008,"Ikan cakalang asap, mentah"
+GP009,"Ikan cakalang asin, mentah"
+GP010,"Ikan calo/ peda, mentah"
+GP011,"Ikan Gabus asap, mentah"
+GP012,"Ikan Gabus, kering"
+GP013,"Ikan gete, goreng"
+GP014,"Ikan hiu, kering"
+GP015,"Ikan katombo, asin"
+GP016,"Ikan kayu, kering"
+GP017,Ikan Lais bakar
+GP018,"Ikan lomak asin, mentah"
+GP019,Ikan Mas pepes
+GP020,Ikan mujahir goreng
+GP021,Ikan Mujahir pepes
+GP022,"Ikan mujahir, dendeng, mentah"
+GP023,"Ikan Papuyu, bakar"
+GP024,"Ikan Patin, bakar"
+GP025,"Ikan peda banjar, mentah"
+GP026,"Ikan pepetek, mentah"
+GP027,"Ikan Pindang banjar, mentah"
+GP028,"Ikan Pindang benggol, mentah"
+GP029,"Ikan Pindang layang, mentah"
+GP030,"Ikan Pindang selar, mentah"
+GP031,"Ikan sale lais, mentah"
+GP032,"Ikan saluang, kering, mentah"
+GP033,"Ikan sanggang, masakan"
+GP034,"Ikan selar kuning, cue, mentah"
+GP035,"Ikan selar, kering, mentah"
+GP036,"Ikan sepat, kering, mentah"
+GP037,"Ikan sunu, asin, mentah"
+GP038,"Ikan, tepung, mentah"
+GP039,"Ikan Teri nasi, kering, mentah"
+GP040,"Ikan Teri, bubuk, mentah"
+GP041,"Ikan teri, kering, mentah"
+GP042,"Ikan Teri, kering, tawar, mentah"
+GP043,"Ikan Teri, tepung, mentah"
+GP044,"Kerang, asap, mentah"
+GP045,"Kerang, dendeng, mentah"
+GP046,"Rebon, kering, mentah"
+GP047,"Rebung laut, mentah"
+GP048,Rusip
+GP049,Sardines dalam kaleng
+GP050,"Teripang, dendeng, mentah"
+GP051,"Udang kering, mentah"
+GP052,"Udang papay, mentah"
+GP053,Abon haruwan
+GP054,Abon ikan
+GP055,"Betok wadi, masakan"
+GP056,"Bou ninahu ndamate, masakan"
+GP057,"Bouiki ninahu nggaluku, masakan"
+GP058,Cakalang asar (asap papua)
+GP059,"Dendeng belut, goreng"
+GP060,"Dendeng mujahir, goreng"
+GP061,Fillet o-fish
+GP062,"Gete kuah asam, masakan"
+GP063,"Gulai asam keueung, masakan"
+GP064,"Gulai ikan paya, masakan"
+GP065,"Gulai ikan, masakan"
+GP066,"Gulai keumamah, masakan"
+GP067,"Gulai tiram, masakan"
+GP068,"Gurame asem manis, masakan"
+GP069,"Ikan asar merah, masakan"
+GP070,Jambal goreng
+GP071,"Jukku pallu kaloa, masakan"
+GP072,"Kaholeo, masakan"
+GP073,"Lawara penjah, masakan"
+GP074,"Model, masakan"
+GP075,"Mujahir acar kuning, masakan"
+GP076,"Parede baleh, masakan"
+GP077,Pempek adaan
+GP078,Pempek belida
+GP079,Pempek kapal selam
+GP080,Pempek kelesan
+GP081,Pempek kulit
+GP082,Pempek telur
+GP083,Pempek tenggiri
+GP084,"Pencok lele, masakan"
+GP085,"Pinda, masakan"
+GP086,"Pindang kenari, masakan"
+GP087,"Saboko gurita, masakan"
+GP088,"Saboko saltan, masakan"
+GP089,"Saboko sardin, masakan"
+GP090,Sate Bandeng
+GP091,"Sepi, masakan"
+GP092,Tekwan
+GP093,"Teri balado, masakan"
+GP094,Tumis bandeng
+GP095,Tumis keumamah
+GR001,"Ikan bader, segar"
+GR002,"Ikan balong, segar"
+GR003,"Ikan bambangan, segar"
+GR004,"Ikan bandeng, segar"
+GR005,"Ikan banjar, segar"
+GR006,"Ikan baronang, segar"
+GR007,"Ikan batung, segar"
+GR008,"Ikan baung, segar"
+GR009,"Ikan bawal, segar"
+GR010,"Ikan Belida, segar"
+GR011,"Belut, segar"
+GR012,"Belut,laut, segar"
+GR013,"Ikan beunteur, segar"
+GR014,"Ikan biawan, segar"
+GR015,"Ikan bili, segar"
+GR016,"Ikan bubara, segar"
+GR017,"Ikan bulan-bulan, segar"
+GR018,"Ikan, cakalang, segar"
+GR019,"Ikan cakalang, hati, segar"
+GR020,"Ikan cakalang, jantung, segar"
+GR021,"Ikan cakalang, perut, segar"
+GR022,"Cumi-cumi, segar"
+GR023,"Ikan daun, segar"
+GR024,"Ikan ekor kuning, segar"
+GR025,"Ikan gabus, segar"
+GR026,"Ikan Heu, segar"
+GR027,"Ikan hitam, segar"
+GR028,"Ikan hiu, segar"
+GR029,"Ikan kacangan, segar"
+GR030,"Ikan kakap, segar"
+GR031,"Ikan kakatua, segar"
+GR032,"Ikan kalaban, segar"
+GR033,"Ikan Kamera, segar"
+GR034,"Ikan kapar, segar"
+GR035,"Ikan kawalinya, segar"
+GR036,"Ikan oci, kembung, segar"
+GR037,"Keong, segar"
+GR038,"Kepiting, segar"
+GR039,"Kerang, segar"
+GR040,"Ikan keru-keru, segar"
+GR041,"Ikan kima, segar"
+GR042,"Kodok, segar"
+GR043,"Kura-kura, segar"
+GR044,"Kuro, segar"
+GR045,"Ikan lais, segar"
+GR046,"Ikan layang, segar"
+GR047,"Ikan layur, segar"
+GR048,"Ikan lehoma, segar"
+GR049,"Ikan lemuru, segar"
+GR050,"Ikan lidah, segar"
+GR051,"Lokan, segar"
+GR052,"Ikan malalugis, segar"
+GR053,"Ikan mamar merah, segar"
+GR054,"Ikan mas, segar"
+GR055,"Ikan mayong, segar"
+GR056,"Ikan mujahir, segar"
+GR057,"Ikan nasu metti, segar"
+GR058,"Ikan paling, segar"
+GR059,"Ikan papuyu/ betok, segar"
+GR060,"Ikan Patin, segar"
+GR061,"Ikan pomo, segar"
+GR062,"Ikan Puntin, segar"
+GR063,"Rajungan, segar"
+GR064,"Rebon, udang kecil, segar"
+GR065,"Ikan saluang, segar"
+GR066,"Ikan sarden, segar"
+GR067,"Ikan selar, segar"
+GR068,"Ikan sepat, segar"
+GR069,"Ikan sidat, segar"
+GR070,"Ikan sunu, segar"
+GR071,"Ikan tahuman, segar"
+GR072,"Ikan Sale, segar"
+GR073,"Ikan tarmon, segar"
+GR074,"Ikan telan, segar"
+GR075,"Ikan tembang, segar"
+GR076,"Ikan tempahas, segar"
+GR077,"Ikan terbang, segar"
+GR078,"Ikan teri, segar"
+GR079,"Ikan titang, segar"
+GR080,"Ikan tongkol, segar"
+GR081,"Ikan turi, segar"
+GR082,"Udang, besar, segar"
+GR083,"Udang galah, segar"
+GR084,"Udang, segar"
+HP001,"Telur ayam, dadar, masakan"
+HP002,"Telur bebek, asin, mentah"
+HP003,"Telur bebek, dadar, masakan"
+HP004,"Ikan, telur, asin, mentah"
+HP005,"Bayau mi balu, masakan"
+HP006,"Cucuru bayau, masakan"
+HP007,"Kalio telur, masakan"
+HR001,"Telur ayam kampung, segar"
+HR002,"Telur ayam ras, segar"
+HR003,"Telur ayam ras, bagian kuning, segar"
+HR004,"Telur ayam ras, bagian putih, segar"
+HR005,"Telur bebek alabio, segar"
+HR006,"Telur bebek, bagian kuning, segar"
+HR007,"Telur bebek, bagian putih, segar"
+HR008,"Telur bebek tambak, segar"
+HR009,"Telur burung maleo, segar"
+HR010,"Telur penyu, segar"
+HR011,"Telur burung puyuh, segar"
+JP001,Es krim
+JP002,Hangop
+JP003,Keju
+JP004,Kwark (Quark)
+JP005,"Susu asam untuk bayi, bubuk"
+JP006,Susu bubuk
+JP007,Susu kental manis
+JP008,Susu kental tak manis
+JP009,"Susu skim, bubuk"
+JP010,"Susu skim, segar"
+JP011,"Yoghurt, segar"
+JR001,"Kepala susu - krim, segar"
+JR002,Susu ibu - ASI
+JR003,"Susu kambing, segar"
+JR004,"Susu kerbau, segar"
+JR005,"Susu kuda, segar"
+JR006,"Susu sapi, segar"
+KP001,Margarin
+KP002,Mentega
+KP003,Santan (dengan air)
+KP004,Santan murni
+KR001,"Kelapa setengah tua, daging, segar"
+KR002,"Kelapa tua, daging, segar"
+KR003,Lemak babi (lard)
+KR004,Lemak babi (bacon)
+KR005,Lemak ikan
+KR006,Lemak kerbau (lemak sapi)
+KR007,"Minyak hiu, hati"
+KR008,Minyak ikan
+KR009,Minyak kacang tanah
+KR010,Minyak kedelai
+KR011,Minyak kelapa
+KR012,Minyak kelapa sawit
+KR013,Minyak wijen
+KR014,Minyak Zaitun
+NP001,Balichong
+NP002,Bekasam
+NP003,Bekasang
+NP004,Cuka
+NP005,Kecap
+NP006,Petis ikan
+NP007,Petis udang kering
+NP008,Petis udang pasta
+NP009,Saos tomat
+NP010,Tempoya
+NP011,Terasi
+NP012,Terasi dobo
+NP013,Terasi merah
+NR001,"Asam arang coklat, segar"
+NR002,"Asam arang merah, segar"
+NR003,"Asam kandis, kering"
+NR004,"Asam kandis, segar"
+NR005,"Asam masak pohon, segar"
+NR006,"Asam payak, segar"
+NR007,"Bawang merah, segar"
+NR008,"Bawang putih, segar"
+NR009,"Boros kunci, segar"
+NR010,"Boros laja (lengkuas), segar"
+NR011,"Cabai gembor merah, segar"
+NR012,"Cabai hijau, segar"
+NR013,"Cabai merah, kering"
+NR014,"Cabai merah, segar"
+NR015,"Cabai rawit, segar"
+NR016,"Cengkeh, kering"
+NR017,"Daun salam, bubuk"
+NR018,"Jahe, segar"
+NR019,Kemiri
+NR020,"Ketumbar, kering"
+NR021,Kluwek
+NR022,"Kunyit, segar"
+NR023,"Merica, kering"
+NR024,"Pala, biji, kering"
+QR001,"Kelapa muda, air, segar"
+MP001,"Coklat manis, batang"
+MP002,"Coklat pahit,batang"
+MP003,"Coklat susu, batang"
+MP004,Coklat bubuk
+MP005,Gula aren
+MP006,Gula kelapa
+MP007,Gula putih
+MP008,"Jam, selai"
+MP009,Kopi bubuk instant
+MP010,Madu
+MP011,Markisa squash
+MP012,"Markisa squash, BD"
+MP013,Melase
+MP014,Sirup
+MP015,Sirup pirous
+MP016,Teh hijau daun kering
+MP017,Teh hitam daun kering
+MP018,Teh melati daun kering

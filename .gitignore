@@ -1,6 +1,11 @@
-# 临时与缓存
-*.tmp
-*.log
-.DS_Store
+# 还原后生成的工作目录
+*.db-journal
+usda/
 __pycache__/
 *.pyc
+*.bak
+
+# 注意：以下有意提交，勿忽略
+#   data/usda/**/*.csv.gz.partNNN   USDA 分片
+#   data/**/*.csv / *.xlsx           原始数据
+#   data/**/*.db                     OCR 成果库
