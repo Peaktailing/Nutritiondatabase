@@ -26,9 +26,12 @@
   D. ocr_macro_sum_low（3 条）→ 一并双约束诊断。
 """
 import json
+import os
 import sqlite3
 
-DB = "/workspace/fdc/nutrition.db"
+_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DB = os.environ.get("FDC_DB", os.path.join(_ROOT, "nutrition.db"))
+REPAIR_LOG = os.path.join(_ROOT, "data", "china-ocr", "repair_log.json")
 
 # 中国表能量系数（kJ/g，来自原书 meta：蛋白17 脂肪37 碳水17 纤维8）
 # kcal 版即 4 / 9 / 4 / 2（近似换算，与原书 kJ 系数自洽）
@@ -134,6 +137,10 @@ def main():
                 set merge_flag='macro_sum_def_includes_fiber' where food_code=?""",
                 (code,))
             false_alarm += 1
+            log.append({"code": code, "name": name, "flag": flag,
+                        "fix": None, "false_alarm": True,
+                        "desc": f"五项和={s5:.1f} 自洽，macro_sum 口径问题",
+                        "five_sum_before": s5})
             continue
         fx, desc, strict = diagnose(w, p, f, c, fib, ash, kcal, kj)
         if fx:
@@ -180,6 +187,11 @@ def main():
                 set energy_kj=?, merge_flag='ocr_repaired' where food_code=?""",
                 (round(kcal * 4.184, 1), code))
             kj_fix += 1
+            log.append({"code": code, "name": name,
+                        "flag": "ocr_kj_decimal_shift",
+                        "fix": {"energy_kj": round(kcal * 4.184, 1),
+                                "energy_kj_before": kj},
+                        "desc": round(kcal, 1)})
             continue
         # 假设2：kcal/kJ 两列互换（白沙蒿 232"kcal"+56"kJ" → 鲜野菜
         # 232 kcal 不可能，56 kcal≈248 kJ 才对，即两列颠倒）。
@@ -192,6 +204,12 @@ def main():
                 set energy_kcal=?, energy_kj=?, merge_flag='ocr_repaired'
                 where food_code=?""", (float(kj), round(kcal * 4.184, 1), code))
             kj_swap += 1
+            log.append({"code": code, "name": name,
+                        "flag": "ocr_kj_decimal_shift",
+                        "fix": {"energy_kcal": float(kj),
+                                "energy_kj": round(kcal * 4.184, 1),
+                                "kcal_before": kcal, "kj_before": kj},
+                        "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"})
             continue
         # 假设3：整段列互换但碳水缺失，宏量反推不可用。
         # 证据链：互换后 kj/kcal 比值自动 ≈ 4.184（因为两值就是互换的），
@@ -207,6 +225,12 @@ def main():
                     set energy_kcal=?, energy_kj=?, merge_flag='ocr_repaired'
                     where food_code=?""", (kcal_new, kj_new, code))
                 kj_swap += 1
+                log.append({"code": code, "name": name,
+                            "flag": "ocr_kj_decimal_shift",
+                            "fix": {"energy_kcal": kcal_new,
+                                    "energy_kj": kj_new,
+                                    "kcal_before": kcal, "kj_before": kj},
+                            "desc": f"kcal/kJ 两列互换（比值 {ratio:.2f}）"})
                 continue
         # 假设4：宏量严重缺失（无法做任何守恒验证），但 kcal 自身
         # 高度可信 —— 同簇产品一致（米粉 9 条全在 407~415）且符合品类
@@ -217,13 +241,33 @@ def main():
                 set energy_kj=?, merge_flag='ocr_repaired' where food_code=?""",
                 (round(kcal * 4.184, 1), code))
             kj_fix += 1
+            log.append({"code": code, "name": name,
+                        "flag": "ocr_kj_decimal_shift",
+                        "fix": {"energy_kj": round(kcal * 4.184, 1),
+                                "energy_kj_before": kj},
+                        "desc": f"宏量缺失，kcal={kcal} 同簇一致"})
             continue
         kj_manual += 1
+        cur.execute("""update china_food_merged
+            set merge_flag='needs_manual_review' where food_code=?""", (code,))
+        log.append({"code": code, "name": name,
+                    "flag": "ocr_kj_decimal_shift",
+                    "fix": None, "manual": True,
+                    "desc": f"kcal={kcal} kJ={kj} 宏量反推={calc:.0f}"})
         if kj_manual <= 12:
             print(f"   kJ 人工: {code} {name} kcal={kcal} kJ={kj} 宏量反推={calc:.0f}")
     print(f"[kJ 列] 重算 {kj_fix} / 互换修复 {kj_swap} / 转人工 {kj_manual}")
 
-    with open("/workspace/fdc/merged/data/china-ocr/repair_log.json", "w",
+    # A/B 段转人工的也补进日志（含现值，便于人工核对原书）
+    for code, name, w, p, f, c, ash in manual:
+        log.append({"code": code, "name": name,
+                    "flag": "needs_manual_review",
+                    "fix": None, "manual": True,
+                    "desc": f"五项和={five_sum(w, p, f, c, ash):.1f}",
+                    "values": {"water_g": w, "protein_g": p, "fat_g": f,
+                               "carb_g": c, "ash_g": ash}})
+
+    with open(REPAIR_LOG, "w",
               encoding="utf-8") as fh:
         json.dump(log, fh, ensure_ascii=False, indent=1)
 

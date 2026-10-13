@@ -32,14 +32,35 @@ cd usda/FoodData_Central_csv_2026-04-30 && md5sum -c ../../data/usda/MD5SUMS.txt
 ## 二、逐来源导入原始层
 
 ```bash
-python3 scripts/build_db.py         # USDA      -> food / food_nutrient / ... （约 20 分钟，2719万行）
-python3 scripts/build_cn.py         # 中国       -> china_food_composition / china_dri_2023 / ...
-python3 scripts/build_gi.py         # GI 附录    -> china_food_gi
-python3 scripts/build_intl.py       # 法英日西非 -> ciqual_food / uk_cofid_food / jp_mext_food / fao_wafct_food
-python3 scripts/build_sea.py        # 印尼东盟   -> id_tkpi_food / asean_fcd_2014
+python3 scripts/import/build_db.py     # USDA      -> food / food_nutrient / ... （约 20 分钟，2719万行）
+python3 scripts/import/build_cn.py     # 中国       -> china_food_composition / china_dri_2023 / ...
+python3 scripts/import/build_gi.py     # GI 附录    -> china_food_gi
+python3 scripts/import/build_intl.py   # 法英日西非 -> ciqual_food / uk_cofid_food / jp_mext_food / fao_wafct_food
+python3 scripts/import/build_sea.py    # 印尼东盟   -> id_tkpi_food / asean_fcd_2014
 ```
 
 > 各脚本默认读 `./usda/`、`./data/international/`、`./data/china/`。若路径不同，用命令行参数指定（见各脚本 `--help`）。
+> 所有脚本从 `FDC_DB` 环境变量解析库路径，缺省 `<repo>/nutrition.db`。
+
+## 二·五、中国两版合并 + OCR 修复
+
+中国数据有两个来源：用户 OCR 版（1,810 条）和早期整理版（互补 21 条 + 39 条合成代表值）。先合并，再用守恒约束修 OCR 读数错误：
+
+```bash
+python3 scripts/import/merge_china_ocr.py   # -> china_food_merged 1,831 / china_food_synthetic 39 / china_merge_map 1,872
+python3 scripts/normalize/fix_ocr_shifts.py # -> 修复 117 / 假警报澄清 61 / 转人工 4
+```
+
+**修复顺序必须在归一化之前**——`fix_ocr_shifts.py` 直接改 `china_food_merged` 的读数，归一化层从该表取数。跳过这步，117 条修复不会进入 `norm_food` / `norm_value`。
+
+修复依据两条物理守恒律：
+
+1. **五项守恒**：水 + 蛋白 + 脂肪 + 碳水 + 灰分 = 100 g/100g（±2.5 容差）。注意中国表碳水列**含膳食纤维**，纤维不重复加入。
+2. **能量守恒**：`kcal ≈ 4×蛋白 + 9×脂肪 + 4×(碳水 − 纤维)`（±30%）。
+
+两轮筛选：strict 轮双约束同时满足；loose 轮仅守恒——记录的 kcal 可能与碳水同源出错，此时能量不能作为否决依据，命中后用宏量重算 kcal 与 kJ。
+
+对每条问题行枚举「单列错误」假设，双约束同时满足才采信；无解的行保持原值并标记 `needs_manual_review`。全部决策（含假警报与人工条目）写入 `data/china-ocr/repair_log.json`，可逐条审计。
 
 ## 三、构建并排归一化层
 
@@ -58,7 +79,8 @@ python3 scripts/build_norm_values.py  # 公制化数值 -> norm_value + 浏览�
 ## 四、名称中文化
 
 ```bash
-python3 scripts/translate_names.py
+python3 scripts/translate/translate_names.py
+python3 scripts/translate/fix_asean_names.py
 ```
 
 - 英语词表 `scripts/glossary_en.py`（1,574 主料词条，12 个语义类别）
@@ -101,10 +123,12 @@ bash tools/rebuild_all.sh
 | USDA 下载 | ~10 分钟 | 3.1 GB CSV |
 | USDA 导入 | ~20 分钟 | 2719 万行 `food_nutrient` |
 | 其他 7 来源导入 | ~2 分钟 | 各源库表 |
-| 归一化层构建 | ~3 分钟 | `norm_food` 26,958 行 |
-| 数值公制化 | ~4 分钟 | `norm_value` 493,941 行 |
+| 中国两版合并 | ~10 秒 | `china_food_merged` 1,831 行 |
+| OCR 修复 | ~5 秒 | 117 条修复 + 决策日志 |
+| 归一化层构建 | ~3 分钟 | `norm_food` 27,112 行 |
+| 数值公制化 | ~4 分钟 | `norm_value` 487,712 行 |
 | 名称中文化 | ~10 秒 | 99.1% 覆盖 |
-| 导出 | ~5 秒 | 7.6 MB |
+| 导出 | ~12 秒 | 7.6 MB |
 
 完整重建约 **40 分钟**。
 
@@ -126,4 +150,4 @@ bash tools/rebuild_all.sh
 实测各库食物名精确匹配率 0%，模糊匹配召回 35% 但存在系统性误配（黄油→可可脂、奶油→豆奶油、全脂奶粉→奶昔）。不合并就没有误配。
 
 **Q：ASEAN 数据为什么覆盖率只有 76%？**
-原始 `food_name` 被泰/越/马来语混排打乱，部分只剩语言码残片（如 `TH) AAC`）。已从 `desc` 列抢救回英文名（`tools/../scripts/fix_asean_names.py`），剩余部分属数据源本身的名称缺失，无法靠词典补全。
+原始 `food_name` 被泰/越/马来语混排打乱，部分只剩语言码残片（如 `TH) AAC`）。已从 `desc` 列抢救回英文名（`scripts/translate/fix_asean_names.py`），剩余部分属数据源本身的名称缺失，无法靠词典补全。

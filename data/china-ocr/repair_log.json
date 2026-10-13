@@ -1,5 +1,86 @@
 [
  {
+  "code": "011101",
+  "name": "小麦",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "012204",
+  "name": "早釉",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "014101",
+  "name": "大麦【元麦］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "014102",
+  "name": "黑大麦",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "014201",
+  "name": "肚里黄",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "019005",
+  "name": "荞麦",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "031103",
+  "name": "青豆（干）【青大豆】",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "031104",
+  "name": "黄豆",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "031201",
+  "name": "黄豆粉",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.00000000000001
+ },
+ {
   "code": "034106",
   "name": "芸豆(干，杂，带皮)",
   "flag": "ocr_carb_column_shift",
@@ -18,6 +99,15 @@
   },
   "desc": 48.9,
   "five_sum_before": 110.8
+ },
+ {
+  "code": "041302",
+  "name": "蓝『玉蔓菁，球茎甘蓝，",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
  },
  {
   "code": "042103",
@@ -50,6 +140,15 @@
   "five_sum_before": 166.6
  },
  {
+  "code": "042122",
+  "name": "甜脆荷兰豆【甜豆］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
   "code": "043102",
   "name": "茄子 (绿皮)",
   "flag": "ocr_carb_column_shift",
@@ -68,6 +167,15 @@
   },
   "desc": 31.6,
   "five_sum_before": 111.7
+ },
+ {
+  "code": "043121",
+  "name": "辣椒 (小红尖辣椒)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.00000000000001
  },
  {
   "code": "043222",
@@ -110,6 +218,15 @@
   "five_sum_before": 112.59999999999998
  },
  {
+  "code": "044402",
+  "name": "韭黄 (韭芽，黄色)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.00000000000001
+ },
+ {
   "code": "045120",
   "name": "小白菜【青菜］",
   "flag": "ocr_carb_column_shift",
@@ -150,6 +267,60 @@
   "five_sum_before": 110.8
  },
  {
+  "code": "045317",
+  "name": "香菜（鲜）【芜荽］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "045323",
+  "name": "荠菜（鲜）【蓟菜，菱角菜］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.00000000000001
+ },
+ {
+  "code": "045408",
+  "name": "玉兰片",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "046001",
+  "name": "慈姑（鲜）【乌芋，白地果］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
+  "code": "046003",
+  "name": "菱角（老，鲜）【龙角］]",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "046008",
+  "name": "荸荠（鲜）【马蹄，地栗］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
   "code": "046010",
   "name": "藕［莲藕】",
   "flag": "ocr_carb_column_shift",
@@ -158,6 +329,24 @@
   },
   "desc": 49.8,
   "five_sum_before": 110.80000000000001
+ },
+ {
+  "code": "047105",
+  "name": "山药 (干)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
+  "code": "051006",
+  "name": "黄蘑 (干)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
  },
  {
   "code": "051016",
@@ -200,6 +389,60 @@
   "five_sum_before": 88.66
  },
  {
+  "code": "051032",
+  "name": "干巴菌",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "052003",
+  "name": "海带【江白菜，昆布］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
+  "code": "061211",
+  "name": "马蹄黄梨",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
+  "code": "061215",
+  "name": "软梨",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.00000000000001
+ },
+ {
+  "code": "062105",
+  "name": "桃 (黄桃)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "062302",
+  "name": "枣 (千)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
   "code": "062304",
   "name": "枣 (金丝小枣)",
   "flag": "ocr_carb_column_shift",
@@ -208,6 +451,42 @@
   },
   "desc": 321.5,
   "five_sum_before": 110.8
+ },
+ {
+  "code": "062305",
+  "name": "乐陵枣",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "062306",
+  "name": "密云小枣",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "062308",
+  "name": "黑枣 (有核)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "062901",
+  "name": "酸枣",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
  },
  {
   "code": "071001",
@@ -220,6 +499,141 @@
   "five_sum_before": 111.69999999999999
  },
  {
+  "code": "071004",
+  "name": "核桃（干）【胡桃】",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071006",
+  "name": "山核桃 (干)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071009",
+  "name": "栗子（干）【板栗］",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.00000000000001
+ },
+ {
+  "code": "071011",
+  "name": "松子 (生)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071012",
+  "name": "松子 (炒)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071013",
+  "name": "松子仁",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071014",
+  "name": "杏仁",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071015",
+  "name": "杏仁 (大杏仁)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071016",
+  "name": "杏仁 (炒)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071017",
+  "name": "杏仁 (原味)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071018",
+  "name": "杏仁 (漂白后)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=99.9 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.9
+ },
+ {
+  "code": "071019",
+  "name": "杏仁 (过油炸干)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071020",
+  "name": "杏仁 (烤干，不加盐)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071021",
+  "name": "杏仁(烤干，加盐）",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071024",
+  "name": "榛子 (干)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
   "code": "071034",
   "name": "杏仁（熟，带壳）",
   "flag": "ocr_carb_column_shift",
@@ -230,6 +644,42 @@
   "five_sum_before": 115.3
  },
  {
+  "code": "071036",
+  "name": "腰果 (熟)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "071039",
+  "name": "开心果 (熟)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.00000000000001
+ },
+ {
+  "code": "072002",
+  "name": "花生（鲜）【落花生，长生果】",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
+  "code": "072003",
+  "name": "花生 (炒）",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
   "code": "072005",
   "name": "花生仁 (炒)",
   "flag": "ocr_carb_column_shift",
@@ -238,6 +688,105 @@
   },
   "desc": 580.8,
   "five_sum_before": 116.2
+ },
+ {
+  "code": "072006",
+  "name": "葵花子 (生)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
+  "code": "072014",
+  "name": "西瓜子",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072016",
+  "name": "芝麻子 (白)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072017",
+  "name": "芝麻子 (黑)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072020",
+  "name": "花生（烤，勤俭牌）",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 99.99999999999999
+ },
+ {
+  "code": "072021",
+  "name": "花生 (烤，密日兴牌)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072022",
+  "name": "花生仁 (油炸)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072023",
+  "name": "葵花子 (熟，奶油香)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072024",
+  "name": "葵花子 (熟，原味)",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072025",
+  "name": "南瓜子（熟）【白瓜子】",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
+ },
+ {
+  "code": "072026",
+  "name": "西瓜子（熟）【黑瓜子】",
+  "flag": "ocr_carb_column_shift",
+  "fix": null,
+  "false_alarm": true,
+  "desc": "五项和=100.0 自洽，macro_sum 口径问题",
+  "five_sum_before": 100.0
  },
  {
   "code": "081306",
@@ -458,5 +1007,884 @@
   },
   "desc": 51.6,
   "five_sum_before": 112.60000000000001
+ },
+ {
+  "code": "048004",
+  "name": "白沙蒿（鲜）【沙蒿】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 56.0,
+   "energy_kj": 970.7,
+   "kcal_before": 232.0,
+   "kj_before": 56.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048006",
+  "name": "白薯叶（鲜）「甘薯叶］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 60.0,
+   "energy_kj": 1041.8,
+   "kcal_before": 249.0,
+   "kj_before": 60.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048008",
+  "name": "败酱（鲜）【胭脂麻］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 69.0,
+   "energy_kj": 1213.4,
+   "kcal_before": 290.0,
+   "kj_before": 69.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048009",
+  "name": "扁蓄菜（鲜）【竹节草】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 75.0,
+   "energy_kj": 1309.6,
+   "kcal_before": 313.0,
+   "kj_before": 75.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048010",
+  "name": "朝鲜蓟 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 54.0,
+   "energy_kj": 945.6,
+   "kcal_before": 226.0,
+   "kj_before": 54.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048011",
+  "name": "刺儿菜（鲜）【小蓟,蓟蓟菜］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 42.0,
+   "energy_kj": 728.0,
+   "kcal_before": 174.0,
+   "kj_before": 42.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048013",
+  "name": "达鸟里胡枝子（鲜）【牛枝",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 117.0,
+   "energy_kj": 2054.3,
+   "kcal_before": 491.0,
+   "kj_before": 117.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048015",
+  "name": "大玻璃草叶（鲜）【大车前】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 49.0,
+   "energy_kj": 861.9,
+   "kcal_before": 206.0,
+   "kj_before": 49.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048016",
+  "name": "大巢菜（鲜）野茗子，野豌豆】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 63.0,
+   "energy_kj": 1104.6,
+   "kcal_before": 264.0,
+   "kj_before": 63.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048017",
+  "name": "大蓟叶（鲜）【飞廉叶］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 38.0,
+   "energy_kj": 661.1,
+   "kcal_before": 158.0,
+   "kj_before": 38.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048018",
+  "name": "地肤（鲜）【益明，扫帚苗】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 65.0,
+   "energy_kj": 1142.2,
+   "kcal_before": 273.0,
+   "kj_before": 65.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048019",
+  "name": "地笋（鲜)地古牛，地瓜儿苗叶］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 69.0,
+   "energy_kj": 1205.0,
+   "kcal_before": 288.0,
+   "kj_before": 69.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048021",
+  "name": "独行菜 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 19.0,
+   "energy_kj": 75.0,
+   "kcal_before": 75.0,
+   "kj_before": 19.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.25）"
+ },
+ {
+  "code": "048024",
+  "name": "胡枝子（鲜）【山豆子]",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 138.0,
+   "energy_kj": 2422.5,
+   "kcal_before": 579.0,
+   "kj_before": 138.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048025",
+  "name": "槐花（鲜）［洋槐花,豆槐花］】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 82.0,
+   "energy_kj": 1439.3,
+   "kcal_before": 344.0,
+   "kj_before": 82.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048026",
+  "name": "黄麻叶 (鲜）",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 42.0,
+   "energy_kj": 740.6,
+   "kcal_before": 177.0,
+   "kj_before": 42.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048027",
+  "name": "碱蓬（鲜）【棉蓬，猪毛菜］】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 33.0,
+   "energy_kj": 577.4,
+   "kcal_before": 138.0,
+   "kj_before": 33.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048028",
+  "name": "苦苦菜 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 42.0,
+   "energy_kj": 174.0,
+   "kcal_before": 174.0,
+   "kj_before": 42.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048030",
+  "name": "罗勒［兰香]",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 26.0,
+   "energy_kj": 451.9,
+   "kcal_before": 108.0,
+   "kj_before": 26.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048031",
+  "name": "马齿苋(鲜)[长寿菜,瓜子菜】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 28.0,
+   "energy_kj": 489.5,
+   "kcal_before": 117.0,
+   "kj_before": 28.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048032",
+  "name": "路边菊1马兰头（鲜)【马兰，鸡儿肠，",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 28.0,
+   "energy_kj": 497.9,
+   "kcal_before": 119.0,
+   "kj_before": 28.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048033",
+  "name": "麦瓶草（鲜）【米瓦罐】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 38.0,
+   "energy_kj": 665.3,
+   "kcal_before": 159.0,
+   "kj_before": 38.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048035",
+  "name": "牛叶 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 42.0,
+   "energy_kj": 728.0,
+   "kcal_before": 174.0,
+   "kj_before": 42.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048036",
+  "name": "爬景天（鲜）【石头菜］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 21.0,
+   "energy_kj": 364.0,
+   "kcal_before": 87.0,
+   "kj_before": 21.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048040",
+  "name": "蒲公英叶（鲜）【黄花苗叶，",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 53.0,
+   "energy_kj": 221.0,
+   "kcal_before": 221.0,
+   "kj_before": 53.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048041",
+  "name": "掐不齐(鲜)[鸡眼草，牛黄草]",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 110.0,
+   "energy_kj": 462.0,
+   "kcal_before": 462.0,
+   "kj_before": 110.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048042",
+  "name": "清明菜（鲜）【鼠曲菜］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 49.0,
+   "energy_kj": 206.0,
+   "kcal_before": 206.0,
+   "kj_before": 49.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048044",
+  "name": "沙参叶（鲜）【白参】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 93.0,
+   "energy_kj": 390.0,
+   "kcal_before": 390.0,
+   "kj_before": 93.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048046",
+  "name": "山苦荚叶（鲜）【启明菜叶］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 33.0,
+   "energy_kj": 139.0,
+   "kcal_before": 139.0,
+   "kj_before": 33.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048048",
+  "name": "食用黄麻",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 22.0,
+   "energy_kj": 94.0,
+   "kcal_before": 94.0,
+   "kj_before": 22.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.23）"
+ },
+ {
+  "code": "048049",
+  "name": "酸模 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 301.2,
+   "energy_kj_before": 17.0
+  },
+  "desc": 72.0
+ },
+ {
+  "code": "048050",
+  "name": "汤菜 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 24.0,
+   "energy_kj": 99.0,
+   "kcal_before": 99.0,
+   "kj_before": 24.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048051",
+  "name": "土三七（鲜）【景天三七】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 48.0,
+   "energy_kj": 200.0,
+   "kcal_before": 200.0,
+   "kj_before": 48.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048052",
+  "name": "歪头菜（鲜）【草豆，二叶］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 74.0,
+   "energy_kj": 308.0,
+   "kcal_before": 308.0,
+   "kj_before": 74.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048054",
+  "name": "夏枯草（鲜）【铁色草］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 63.0,
+   "energy_kj": 265.0,
+   "kcal_before": 265.0,
+   "kj_before": 63.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048055",
+  "name": "香椿（鲜）【香椿芽】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 50.0,
+   "energy_kj": 211.0,
+   "kcal_before": 211.0,
+   "kj_before": 50.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048056",
+  "name": "香茅",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 17.0,
+   "energy_kj": 72.0,
+   "kcal_before": 72.0,
+   "kj_before": 17.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048057",
+  "name": "小旋花（鲜）【狗儿蔓】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 60.0,
+   "energy_kj": 251.0,
+   "kcal_before": 251.0,
+   "kj_before": 60.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048058",
+  "name": "鸭跖草（鲜）竹叶菜，淡竹叶】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 34.0,
+   "energy_kj": 144.0,
+   "kcal_before": 144.0,
+   "kj_before": 34.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048059",
+  "name": "野葱（鲜）［沙葱，麦葱］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 36.0,
+   "energy_kj": 152.0,
+   "kcal_before": 152.0,
+   "kj_before": 36.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048061",
+  "name": "野菊 （鲜）",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 46.0,
+   "energy_kj": 195.0,
+   "kcal_before": 195.0,
+   "kj_before": 46.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048062",
+  "name": "野蒜（鲜）【小蒜，野葱］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 34.0,
+   "energy_kj": 144.0,
+   "kcal_before": 144.0,
+   "kj_before": 34.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048063",
+  "name": "野苋菜（鲜）【假苋菜］】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 62.0,
+   "energy_kj": 260.0,
+   "kcal_before": 260.0,
+   "kj_before": 62.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048064",
+  "name": "茵陈蒿（鲜）【茵陈］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 65.0,
+   "energy_kj": 1142.2,
+   "kcal_before": 273.0,
+   "kj_before": 65.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048065",
+  "name": "榆钱 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 45.0,
+   "energy_kj": 782.4,
+   "kcal_before": 187.0,
+   "kj_before": 45.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048067",
+  "name": "珍珠花菜",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 17.0,
+   "energy_kj": 72.0,
+   "kcal_before": 72.0,
+   "kj_before": 17.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048068",
+  "name": "紫花桔梗",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 22.0,
+   "energy_kj": 94.0,
+   "kcal_before": 94.0,
+   "kj_before": 22.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.23）"
+ },
+ {
+  "code": "048069",
+  "name": "紫萼香茶菜",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 17.0,
+   "energy_kj": 72.0,
+   "kcal_before": 72.0,
+   "kj_before": 17.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048070",
+  "name": "苣英菜（尖叶）【取英菜，苦麻子】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 19.0,
+   "energy_kj": 75.0,
+   "kcal_before": 75.0,
+   "kj_before": 19.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.25）"
+ },
+ {
+  "code": "048073",
+  "name": "茴芹 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 393.3,
+   "energy_kj_before": 22.0
+  },
+  "desc": 94.0
+ },
+ {
+  "code": "048074",
+  "name": "荞菜（鲜）【野荞]",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 13.0,
+   "energy_kj": 225.9,
+   "kcal_before": 54.0,
+   "kj_before": 13.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048075",
+  "name": "萎蒿 (鲜)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 57.0,
+   "energy_kj": 1000.0,
+   "kcal_before": 239.0,
+   "kj_before": 57.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048076",
+  "name": "蕨菜（鲜）【龙头菜，如意菜］】",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 42.0,
+   "energy_kj": 740.6,
+   "kcal_before": 177.0,
+   "kj_before": 42.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048079",
+  "name": "枸杞菜（鲜）【枸杞，地骨］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 47.0,
+   "energy_kj": 824.2,
+   "kcal_before": 197.0,
+   "kj_before": 47.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048080",
+  "name": "浆草(鲜)[酸酸草,酸溜溜］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 66.0,
+   "energy_kj": 1163.2,
+   "kcal_before": 278.0,
+   "kj_before": 66.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048081",
+  "name": "苦苣菜【苦菜、天精菜］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 32.0,
+   "energy_kj": 136.0,
+   "kcal_before": 136.0,
+   "kj_before": 32.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048082",
+  "name": "首【草头、金花菜］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 35.0,
+   "energy_kj": 619.2,
+   "kcal_before": 148.0,
+   "kj_before": 35.0
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "048083",
+  "name": "鱼腥草（叶）【菜、臭菜］",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 32.0,
+   "energy_kj": 131.0,
+   "kcal_before": 131.0,
+   "kj_before": 32.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "048084",
+  "name": "鱼腥草 (根）",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 63.0,
+   "energy_kj": 261.0,
+   "kcal_before": 261.0,
+   "kj_before": 63.0
+  },
+  "desc": "kcal/kJ 两列互换（比值 0.24）"
+ },
+ {
+  "code": "084304",
+  "name": "驴肉 (五香)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 698.7,
+   "energy_kj_before": 102.0
+  },
+  "desc": 167.0
+ },
+ {
+  "code": "091304",
+  "name": "卤煮鸡",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 887.0,
+   "energy_kj_before": 168.0
+  },
+  "desc": 212.0
+ },
+ {
+  "code": "124302",
+  "name": "红螺",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": null,
+  "manual": true,
+  "desc": "kcal=611.0 kJ=506.0 宏量反推=119"
+ },
+ {
+  "code": "134004",
+  "name": "米粉（亨氏黑米红枣营养米",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1732.2,
+   "energy_kj_before": 12.0
+  },
+  "desc": "宏量缺失，kcal=414.0 同簇一致"
+ },
+ {
+  "code": "134005",
+  "name": "米粉（亨氏胡萝卜营养米粉",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1702.9,
+   "energy_kj_before": 5.4
+  },
+  "desc": "宏量缺失，kcal=407.0 同簇一致"
+ },
+ {
+  "code": "134006",
+  "name": "米粉（亨氏淮山慧米营养米",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1702.9,
+   "energy_kj_before": 5.4
+  },
+  "desc": "宏量缺失，kcal=407.0 同簇一致"
+ },
+ {
+  "code": "134007",
+  "name": "米粉（亨氏混合蔬菜营养米粉",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1702.9,
+   "energy_kj_before": 5.4
+  },
+  "desc": "宏量缺失，kcal=407.0 同簇一致"
+ },
+ {
+  "code": "134008",
+  "name": "米粉（亨氏鸡肉蔬菜营养米",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1732.2,
+   "energy_kj_before": 12.0
+  },
+  "desc": "宏量缺失，kcal=414.0 同簇一致"
+ },
+ {
+  "code": "134009",
+  "name": "米粉(亨氏南瓜营养米粉1段)",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1702.9,
+   "energy_kj_before": 5.4
+  },
+  "desc": "宏量缺失，kcal=407.0 同簇一致"
+ },
+ {
+  "code": "134010",
+  "name": "米粉（亨氏五谷杂粮营养米",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1736.4,
+   "energy_kj_before": 13.0
+  },
+  "desc": "宏量缺失，kcal=415.0 同簇一致"
+ },
+ {
+  "code": "134012",
+  "name": "米粉（亨氏婴儿营养米粉辅",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1702.9,
+   "energy_kj_before": 5.4
+  },
+  "desc": "宏量缺失，kcal=407.0 同簇一致"
+ },
+ {
+  "code": "134014",
+  "name": "米粉（亨氏猪肝蔬菜营养米",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kj": 1732.2,
+   "energy_kj_before": 12.0
+  },
+  "desc": "宏量缺失，kcal=414.0 同簇一致"
+ },
+ {
+  "code": "134016",
+  "name": "米粉（嘉宝菠菜营养米粉2",
+  "flag": "ocr_kj_decimal_shift",
+  "fix": {
+   "energy_kcal": 6.4,
+   "energy_kj": 1610.8,
+   "kcal_before": 385.0,
+   "kj_before": 6.4
+  },
+  "desc": "kcal/kJ 两列互换（宏量反推吻合 kJ 列）"
+ },
+ {
+  "code": "013201",
+  "name": "玉米笋 (罐头)",
+  "flag": "needs_manual_review",
+  "fix": null,
+  "manual": true,
+  "desc": "五项和=110.4",
+  "values": {
+   "water_g": 93.0,
+   "protein_g": 11.0,
+   "fat_g": 0.2,
+   "carb_g": 4.9,
+   "ash_g": 1.3
+  }
+ },
+ {
+  "code": "043115",
+  "name": "茄子 (白皮、长)",
+  "flag": "needs_manual_review",
+  "fix": null,
+  "manual": true,
+  "desc": "五项和=111.7",
+  "values": {
+   "water_g": 92.5,
+   "protein_g": 13.0,
+   "fat_g": 0.1,
+   "carb_g": 5.5,
+   "ash_g": 0.6
+  }
+ },
+ {
+  "code": "045126",
+  "name": "油菜心",
+  "flag": "needs_manual_review",
+  "fix": null,
+  "manual": true,
+  "desc": "五项和=111.7",
+  "values": {
+   "water_g": 95.1,
+   "protein_g": 13.0,
+   "fat_g": 0.4,
+   "carb_g": 2.7,
+   "ash_g": 0.5
+  }
  }
 ]

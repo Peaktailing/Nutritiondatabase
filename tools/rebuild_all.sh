@@ -12,7 +12,13 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-DB="${DB:-nutrition.db}"
+# DB 路径解析顺序：DB 环境变量 > FDC_DB 环境变量 > <repo>/nutrition.db
+# 三个变量必须一致，否则 Python 脚本（认 FDC_DB）和导出步骤（用 $DB）
+# 会写/读不同的库。
+DB="${DB:-${FDC_DB:-nutrition.db}}"
+# 所有 Python 脚本都从 FDC_DB 解析库路径，这里显式导出，
+# 保证导入/合并/修复/归一化/导出写的是同一个库。
+export FDC_DB="$DB"
 USDA_DIR="${USDA_DIR:-usda/FoodData_Central_csv_2026-04-30}"
 
 say() { printf '\n\033[1;36m==> %s\033[0m\n' "$*"; }
@@ -61,6 +67,13 @@ python3 scripts/import/build_sea.py
 #   china_merge_map       1,872 条决策日志
 say "合并中国两版成分表（OCR + 早期整理版）"
 python3 scripts/import/merge_china_ocr.py
+
+# ---------------------------------------------------------------- 3.5 OCR 修复
+# 用守恒约束修 china_food_merged 里的 OCR 读数错误。必须在归一化之前跑，
+# 否则修复不会进入 norm_food / norm_value。117 条自动修复 / 61 条假警报澄清 /
+# 4 条转人工（needs_manual_review，保持原值）。
+say "OCR 读数错误自动修复（守恒约束）"
+python3 scripts/normalize/fix_ocr_shifts.py
 
 # ---------------------------------------------------------------- 4. 归一化
 say "构建并排归一化层"
